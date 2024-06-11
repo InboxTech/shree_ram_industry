@@ -27,3 +27,36 @@
     background-color: red;
     justify-content: space-between !important;
 }
+
+.sub{
+    padding: 24px;
+    background-color: #15151D;
+    display: flex;
+}
+
+.sub .card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 250px;
+    background-image:linear-gradient(#2B2B32, #15151D);
+}
+.textbox{
+    
+    border-color: #ffffff;
+    border-radius: 8;
+
+}
+
+.textbox div input{
+    background-color: #15151D !important;
+    border-radius: 8px;
+    
+}
+.title1{
+    color: #ffffff;
+}
+.title2{
+    color: #ffffff;
+}
