@@ -1,25 +1,27 @@
 :root {
-  --orang-color: rgba(243, 115, 50, 1);
+    --orang-color: rgba(243, 115, 50, 1);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 /* navbar */
 
 .nav-1 {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .nav-1 div {
-  padding: 10px 50px;
+    padding: 10px 50px;
 }
+
 .nav-1 .nav-doc {
-  background-color: var(--orang-color);
-  color: #ffffff;
+    background-color: var(--orang-color);
+    color: #ffffff;
 }
 
 /* swiper */
@@ -35,7 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Add this */
+    position: relative;
+    /* Add this */
 }
 
 .swiper-slide img {
@@ -62,39 +65,48 @@
     text-align: center;
     width: 800px;
 }
-.img-title{
+
+.img-title {
     font-size: 50px;
     font-weight: 600;
 }
-.img-sub-title{
+
+.img-sub-title {
     font-size: 20px;
     font-weight: 600;
 }
 
 .test {
-  background-color: red;
-  justify-content: space-between !important;
+    background-color: red;
+    justify-content: space-between !important;
 }
 
-.sub{
-    padding: 24px;
+footer {
     background-color: #15151D;
-    display: flex;
+
 }
 
-.sub .card1{
+.sub {
+    padding: 24px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub .card1 {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
     height: 365px;
-    background-image:linear-gradient(#2B2B32, #15151D);
+    background-image: linear-gradient(#2B2B32, #15151D);
     padding: 24px;
     margin-right: 100px;
     border-radius: 8px;
 }
-.textbox{
-    
+
+.textbox {
+
     border-color: #ffffff;
     border-radius: 8;
     margin: 24px 24px 24px 0px;
@@ -102,47 +114,53 @@
 
 }
 
-#textbox{
+#textbox {
     width: 400px !important;
     height: 46px;
     border-radius: 8px;
     border-color: #ffffff;
 }
 
-.textbox div input{
+.textbox div input {
     background-color: #15151D !important;
     border-radius: 8px;
 }
 
-.icon{
-    size:100% !important;
+.icon {
+    size: 100% !important;
     display: flex;
     margin-top: 16px;
 }
-.add1{
+
+.add1 {
     color: #ffffff;
-    margin-bottom: 0px  !important;
+    margin-bottom: 0px !important;
     margin-left: 16px;
 }
-.add2{
+
+.add2 {
     color: #ffffff;
-    margin-bottom: 0px  !important;
+    margin-bottom: 0px !important;
     margin-left: 16px;
 }
-.title1{
+
+.title1 {
     color: #ffffff;
 }
-.title2{
+
+.title2 {
     color: #ffffff;
 }
-.social{
+
+.social {
     margin: 24px 24px 24px 0px;
 }
 
-.tag ul{
+.tag ul {
     list-style: none;
     padding-left: 0px;
 }
+
 .tag ul li a {
     display: flex;
     flex-direction: column;
@@ -152,21 +170,72 @@
 }
 
 
-/* .sub .card2{
-    display: ;
+.sub .card2 {
+
     display: flex;
     flex-direction: column;
     min-width: 0;
     height: 30px;
     width: 50px;
-    background-image:linear-gradient(#2B2B32, #15151D);
+    background-image: linear-gradient( #2B2B32, #15151D);
     padding: 24px;
     margin-right: 100px;
     border-radius: 8px;
-} */
+}
 
 .cart-itmes-2 {
     border: 1px solid black;
     border-radius: 8px;
     height: 100px;
+}
+
+.main-items-ss {
+    display: flex;
+}
+
+.card1 {
+    width: 450px !important;
+    color: #ffffff;
+
+}
+
+.title3 {
+    margin-bottom: 20px;
+}
+
+.gtext {
+    margin-left: 0px !important;
+}
+
+.add3 {
+    color: #ffffff;
+    margin-bottom: 0px !important;
+}
+
+.add4 {
+    color: #ffffff;
+    margin-bottom: 0px !important;
+    font-weight: 700 !important;
+}
+
+.title4 {
+    margin-bottom: 20px;
+}
+
+.Etext {
+    margin-top: 40px;
+}
+
+.last {
+    color: #ffffff;
+    margin: 80px 80px 0px 80px !important;
+}
+
+.Copyright {
+    display: flex;
+    justify-content: space-between;
+}
+.sub .card1:hover {
+    border: 0.5px solid #727277;
+    padding: 24px;
 }
