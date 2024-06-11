@@ -87,24 +87,86 @@
     display: flex;
     flex-direction: column;
     min-width: 0;
-    height: 250px;
+    height: 365px;
     background-image:linear-gradient(#2B2B32, #15151D);
+    padding: 24px;
+    margin-right: 100px;
+    border-radius: 8px;
 }
 .textbox{
     
     border-color: #ffffff;
     border-radius: 8;
+    margin: 24px 24px 24px 0px;
+    width: 400px !important;
 
+}
+
+#textbox{
+    width: 400px !important;
+    height: 46px;
+    border-radius: 8px;
+    border-color: #ffffff;
 }
 
 .textbox div input{
     background-color: #15151D !important;
     border-radius: 8px;
-    
+}
+
+.icon{
+    size:100% !important;
+    display: flex;
+    margin-top: 16px;
+}
+.add1{
+    color: #ffffff;
+    margin-bottom: 0px  !important;
+    margin-left: 16px;
+}
+.add2{
+    color: #ffffff;
+    margin-bottom: 0px  !important;
+    margin-left: 16px;
 }
 .title1{
     color: #ffffff;
 }
 .title2{
     color: #ffffff;
+}
+.social{
+    margin: 24px 24px 24px 0px;
+}
+
+.tag ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.tag ul li a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+/* .sub .card2{
+    display: ;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 30px;
+    width: 50px;
+    background-image:linear-gradient(#2B2B32, #15151D);
+    padding: 24px;
+    margin-right: 100px;
+    border-radius: 8px;
+} */
+
+.cart-itmes-2 {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 100px;
 }
