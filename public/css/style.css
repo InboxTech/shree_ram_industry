@@ -71,6 +71,56 @@
     font-weight: 600;
 }
 
+/* main page */
+p{
+  text-align: justify;
+}
+.i-1 h4, .i-2 h4 {
+  color: var(--orang-color);
+}
+/* item-1 */
+.i-1{
+  display: flex;
+  padding: 50px;
+  background-color: #F2F2F2;
+}
+.i-1 .txt{
+  flex: 0 0 auto;
+  width: 60%;
+  padding: 0 10px 10px 0;
+}
+
+/* item-2 */
+.i-2{
+  background-image: url(../image/i2.png);
+  color: #FFFFFF;
+  padding: 50px;
+}
+.i-2 ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 40px 0;
+}
+.i-2  li {
+  flex: 1 0 30%;
+  margin: 0 40px 40px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+}
+.i-2 li h4,.i-2 li a{
+  color: var(--orang-color);
+  text-decoration: none;
+}
+.i-2 .card{
+  background-color: transparent;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
 .test {
   background-color: red;
   justify-content: space-between !important;
