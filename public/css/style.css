@@ -80,21 +80,64 @@ p{
 }
 /* item-1 */
 .i-1{
-  display: flex;
-  padding: 50px;
+  /* display: flex; */
+  padding: 100px;
   background-color: #F2F2F2;
+  margin-bottom: -240px;
+  justify-content: space-between;
 }
-.i-1 .txt{
+/* .i-1 .p1{
   flex: 0 0 auto;
-  width: 60%;
-  padding: 0 10px 10px 0;
+  width: 55%;
+  padding-right:5%;
 }
+.i-1 .p2{
+  flex: 0 0 auto;
+  width: 45%;
+  padding-left:5%;
+} */
 
+.i-1 .cards{
+  list-style: none;
+  flex: 1 0 250px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  margin-top:50px;
+}
+.i-1 .cards1{
+  list-style: none;
+  flex: 1 0 250px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  margin-bottom:50px;  
+}
+.i-1  .cards-body {
+
+  margin: 0 40px 40px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+.i-1 li h4,.i-1 li a{
+  color: var(--orang-color);
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  [class*="i-"] {
+    width: 100%;
+    padding: 50px;
+  }
+}
 /* item-2 */
 .i-2{
   background-image: url(../image/i2.png);
   color: #FFFFFF;
-  padding: 50px;
+  padding: 100px;
+  margin-top: -240px;
 }
 .i-2 ul{
   list-style: none;
@@ -110,15 +153,11 @@ p{
   box-sizing: border-box;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
+
 }
 .i-2 li h4,.i-2 li a{
   color: var(--orang-color);
   text-decoration: none;
-}
-.i-2 .card{
-  background-color: transparent;
-  color: #FFFFFF;
-  border-color: #FFFFFF;
 }
 
 .test {
