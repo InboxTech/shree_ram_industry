@@ -13,6 +13,8 @@
 .nav-1 {
   display: flex;
   justify-content: space-between;
+  list-style: none !important;
+  gap: 10px;
 }
 .nav-1 div {
   padding: 10px 50px;
@@ -20,6 +22,9 @@
 .nav-1 .nav-doc {
   background-color: var(--orang-color);
   color: #ffffff;
+}
+.navbar-expand-lg {
+  flex-wrap: wrap !important;
 }
 
 /* swiper */
@@ -42,7 +47,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain !important;
 }
 
 .swiper-pagination {
@@ -60,7 +65,7 @@
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    width: 800px;
+    /* width: 800px; */
 }
 .img-title{
     font-size: 50px;
@@ -80,40 +85,33 @@ p{
 }
 /* item-1 */
 .i-1{
-  /* display: flex; */
+  display: flex;
+  flex-wrap: wrap;
   padding: 100px;
   background-color: #F2F2F2;
-  margin-bottom: -240px;
+  margin-bottom: -200px;
   justify-content: space-between;
 }
-/* .i-1 .p1{
-  flex: 0 0 auto;
-  width: 55%;
-  padding-right:5%;
-}
-.i-1 .p2{
-  flex: 0 0 auto;
-  width: 45%;
-  padding-left:5%;
-} */
 
 .i-1 .cards{
   list-style: none;
-  flex: 1 0 250px;
+  flex: 1 0 25%;
   flex-wrap: wrap;
   padding-left: 10px;
   margin-top:50px;
+  align-items: end;
 }
 .i-1 .cards1{
   list-style: none;
-  flex: 1 0 250px;
+  flex: 1 0 25%;
   flex-wrap: wrap;
   padding-left: 10px;
   margin-bottom:50px;  
+  
 }
-.i-1  .cards-body {
+.i-1 .cards-body {
 
-  margin: 0 40px 40px 0;
+  margin: 0 0px 20px 0;
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #FFFFFF;
@@ -124,20 +122,13 @@ p{
   color: var(--orang-color);
   text-decoration: none;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
 
-  [class*="i-"] {
-    width: 100%;
-    padding: 50px;
-  }
-}
 /* item-2 */
 .i-2{
   background-image: url(../image/i2.png);
   color: #FFFFFF;
   padding: 100px;
-  margin-top: -240px;
+  margin-top: -220px;
 }
 .i-2 ul{
   list-style: none;
@@ -148,8 +139,8 @@ p{
 }
 .i-2  li {
   flex: 1 0 30%;
-  margin: 0 40px 40px 0;
-  padding: 20px;
+  margin: 0 20px 20px 0;
+  padding: 30px;
   box-sizing: border-box;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
@@ -163,4 +154,83 @@ p{
 .test {
   background-color: red;
   justify-content: space-between !important;
+}
+
+/* mobile and laptop responsive */
+@media only screen and (max-width: 1110px) {
+  body {
+      width: 100%;
+  }
+
+  .nav-1 {
+      display: none !important;
+  }
+
+  .i-1 {
+      margin-bottom: -90px !important;
+  }
+
+  .i-2 {
+      margin-top: -120px !important;
+      padding-top: 65px !important;
+  }
+
+  .i-1 .cards,
+  .i-1 .cards1 {
+      flex: 1 0 60%;
+      margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .i-1,
+  .i-2 {
+      padding: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+            
+
+  .i-1,
+  .i-2 {
+      width: 100%;
+      padding: 50px;
+  }
+  .i-1 .cards,
+  .i-1 .cards1 {
+      flex: 0 0 100%;
+      margin-bottom: 0;
+  }
+
+  .i-2 ul {
+      padding: 0 15px;
+  }
+  .i-2 li{
+      margin: 0 0px 10px 0;
+      flex:1 0 100% ;
+  }
+
+  .img-container {
+      width: 60%;
+      height: 60%;
+  }
+
+  .img-container .img-title {
+      font-size: 20px;
+  }
+
+  .img-container .img-sub-title {
+      font-size: 10px;
+  }
+
+  .img-container p {
+      font-size: 9px;
+  }
+
+  .swiper-pagination {
+      font-weight: 600;
+      font-size: 20px;
+  }
+
 }
