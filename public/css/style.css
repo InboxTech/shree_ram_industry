@@ -7,7 +7,9 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-
+body{
+    background-color: #FFFFFF;
+}
 /* navbar */
 
 .nav-1 {
@@ -28,6 +30,12 @@
 
 .navbar-expand-lg {
     flex-wrap: wrap !important;
+}
+.navbar-brand img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* swiper */
@@ -248,21 +256,87 @@ p {
 
 /* item 6 */
 .i-6 {
-    padding: 100px;
     background-color: #F2F2F2;
 }
-.i-6 .top{
-    text-align: center;
-}
 
-.i-6 .bottom{
-    /* display: block;
+.i-6 .top img {
+    display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover; */
+    object-fit: cover;
+    border-radius: 18px;
+    margin-bottom: 8%;
+  }
+.i-6 .top{
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-bottom: -9%;
+}
+.i-6 .mid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding:0 100px;
+}
+.i-6 .mid img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+.i-6 .mid-txt{
+    position: absolute;
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    padding-right: 12%;
+    left: 8%;
+    align-items: center;
+    color: #FFFFFF;
+}
+.i-6 .mid-txt span{
+    border: 0.5px solid #fff;
+    height: 100px;
+    justify-content: center;
+}
+.i-6 .bottom{
     background-image: url(../image/i6.3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -9%;
+    padding: 100px;
+}
+.i-6 .bottom div{
+    padding-top: 10%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.i-6 .bottom .b{
+    padding: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 500%;
 }
 
+/* item 8 */
+.i-8{
+    padding: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-orange{
+    background-color: var(--orang-color);
+    color: #ffffff;
+}
+.btn-orange:hover{
+    background-color: #ffffff;
+    color: var(--orang-color);
+    border: 1px solid var(--orang-color);
+}
 /* extra */
 .test {
     background-color: red;
