@@ -297,6 +297,13 @@ p {
     align-items: center;
     color: #FFFFFF;
 }
+.mid-txt p {
+    font-weight: bold;
+}
+.mid-txt h1 {
+    font-size: 50px;
+    font-weight: bold;  
+}
 .i-6 .mid-txt span{
     border: 0.5px solid #fff;
     height: 100px;
@@ -320,13 +327,67 @@ p {
     border: 1px solid #FFFFFF;
     border-radius: 500%;
 }
+.bottom h1 {
+    width: 40%;
+}
+
+.bottom button {
+    height: 70px;
+}
 
 /* item 8 */
-.i-8{
+.i-8 {
     padding: 100px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
+}
+
+.i-8 .contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-8 p {
+    color: #727272;
+    width: 60%;
+}
+
+.i-8 .contents ul {
+    padding: 20px;
+    list-style: none;
+}
+
+.i-8 .contents ul li {
+    position: relative;
+    color: #727272;
+    padding: 20px;
+}
+
+.i-8 .contents ul li a {
+    text-decoration: none;
+    color: inherit;
+    position: relative; 
+}
+
+.i-8 .contents ul li a:hover {
+    color: #ff8800; 
+    font-weight: bold;
+}
+.i-8 .contents ul li a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10px; 
+    width: 3px; 
+    height: 30px; 
+    background-color: #ff8800;
+    transform: translateY(-50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.i-8 .contents ul li a:hover::before {
+    opacity: 1;
 }
 .btn-orange{
     background-color: var(--orang-color);
@@ -346,8 +407,6 @@ p {
 
 /* mobile and laptop responsive */
 @media only screen and (max-width: 768px) {
-
-
     .i-1,
     .i-2,
     .i-3,
