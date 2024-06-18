@@ -10,17 +10,23 @@
 body{
     background-color: #FFFFFF;
 }
+
+li {
+    list-style: none;
+}
+
 /* navbar */
+
+.nav-all-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .nav-1 {
     display: flex;
-    justify-content: space-between;
     list-style: none !important;
     gap: 10px;
-}
-
-.nav-1 div {
-    padding: 10px 50px;
 }
 
 .nav-1 .nav-doc {
@@ -36,6 +42,36 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.main-nav-items {
+    border-bottom : 1px solid #A1A1A1;
+}
+
+.main-nav-items ul li:after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    border: 1px solid #A1A1A1;
+}
+
+.nav-all-items li:nth-child(3):after, 
+.main-nav-items .nav-left-items li:after{
+    border: none;
+} 
+
+.nav-left-items {
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid var(--orang-color); 
+    position: relative;
+    width: 20%;
+    height: 0px;
+}
+
+.nav-left-items li {
+    top:10px;
+    position: absolute;
+    color: white;
 }
 
 /* swiper */
@@ -94,6 +130,57 @@ body{
     background-color: var(--orang-color);
     color: white;
 }
+
+
+/** nav-2 */
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.second-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second-row ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+
+.second-row ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.second-row ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-row img {
+    background-color: red;
+}
+
+.second-row ul li:hover::after {
+    content: "";
+    background-image: url("../image/star-hover-effect-svg.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10px; 
+}
+
+.second-row ul li:hover {
+    color: var(--orang-color);
+}
+
+.third-row {
+    padding: 20px;
+}
+
 
 /* main page */
 p {
