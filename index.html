@@ -183,7 +183,7 @@
             <h4><i class="bi bi-bookmark-fill"></i> OUR BEST SERVICES</h4>
             <h2>Why we are different</h2>
             <ul>
-                <li>
+                <li id="hevor-target">
                     <h4>01</h4>
                     <h5>CNC & VMC Machining Services</h5>
                     <p>
@@ -192,7 +192,10 @@
                     </p>
                     <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
                 </li>
-                <li>
+                <li id="hevor-items" style="display:none;">
+                    <img src="public/image/i2.png" alt="">
+                </li>
+                <li id="hevor-target">
                     <h4>02</h4>
                     <h5>Custom Sheet Metal works</h5>
                     <p>
@@ -201,7 +204,7 @@
                     </p>
                     <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
                 </li>
-                <li>
+                <li id="hevor-target">
                     <h4>03</h4>
                     <h5>Custom Sheet Metal works</h5>
                     <p>
@@ -678,6 +681,25 @@
             },
         });
     </script>
+
+
+<script>
+    // Get references to the elements
+    const hoverTarget = document.getElementById('hevor-target');
+    const hoverItem = document.getElementById('hevor-items');
+
+    // Add event listeners for mouse enter and mouse leave
+    hoverTarget.addEventListener('mouseenter', function() {
+        hoverTarget.style.display = "none";
+        hoverItem.style.display = "block";
+    });
+
+    hoverItem.addEventListener('mouseleave', function() {
+        hoverTarget.style.display = "block";
+        hoverItem.style.display = "none";
+    });
+</script>
+
     <!-- script end -->
 </body>
 </html>
