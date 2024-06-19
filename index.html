@@ -23,13 +23,13 @@
 <body>
     <header>
         <!--navbar here -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid main-nav-items">
+        <nav class="">
+            <div class="main-nav-items">
                 <div class="nav-all-items">
                     <ul class="nav-1">
-                        <li> <i class="ti ti-map-pin"></i> 677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India  </li>
-                        <li><i class="ti ti-phone"></i> +91 74900 04746 </li>
-                        <li><i class="ti ti-mail"></i> info@shreeramindustry.in</li>
+                        <li class="line1"> <i class="ti ti-map-pin"></i> 677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India </li>
+                        <li class="line1"><i class="ti ti-phone"></i> +91 74900 04746 </li>
+                        <li class="d-flex align-items-center"><i class="ti ti-mail"></i> info@shreeramindustry.in</li>
                     </ul>
                     <div class="nav-left-items">
                         <ul>
@@ -60,7 +60,7 @@
     </header>
     <main>
         <!-- swiper -->
-        <div>
+        <div class="first">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -84,14 +84,16 @@
                         <img src="public/image/swiper/s1.png" alt="" />
                         <!-- img text -->
                         <div class="img-container">
-                            <div>
-                                <span>
-                                    <h1>TOTAL ENGINEERING SOLUTIONS</h1>
-                                </span>
-                                <span>Create, Enhance and Sustain.</span>
-                                <span>We would like introduce ourselves as Supplier of precision
+                            <div class="">
+                                <span class="img-sb-title">TOTAL ENGINEERING SOLUTIONS</span><br />
+                                <span class="img-title">Create, Enhance and Sustain.</span><br />
+                                <p>
+                                    We would like introduce ourselves as Supplier of precision
                                     engineering parts for more than 25 years having CNC & VCM
-                                    Machines</span>
+                                    Machines </p>
+                                <button class="btn btn-lg btn-outline-light btn-color">
+                                    Discover More
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -264,8 +266,8 @@
         <!-- INDUSTRIES WE SERVE -->
         <div class="i-4">
             <div>
-                <h4><i class="ti ti-bookmark-filled"></i>WHO ARE WE ?</h4>
-                <h1>SHREE RAM INDUSTRIES</h1>
+                <h4><i class="ti ti-bookmark-filled"></i>INDUSTRIES WE SERVE</h4>
+                <h1>Our Projects</h1>
             </div>
             <div class="p-5">
                 <div class="swiper mySwiper2">
@@ -582,12 +584,13 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
+            spaceBetween: 10,
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 type: "fraction",
@@ -602,10 +605,6 @@
             slidesPerView: 1,
             spaceBetween: 0,
             loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
             // autoplay: {
             //     delay: 2500,
             //     disableOnInteraction: false,
