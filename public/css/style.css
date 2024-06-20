@@ -120,14 +120,26 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 300px;
+}
+.first .swiper-button-next:hover,.first .swiper-button-prev:hover{
+    background-color: var(--orang-color);
 }
 .first .swiper-button-next{
-    width:1%;
-    right: 8%;
+    width:2.2%;
+    right: 9%;
 }
 .first .swiper-button-prev{
-    width:1%;
-    left: 87% ;
+    width:2.2%;
+    left: 83% ;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 100%;
+    font-weight: 600;
 }
 
 .img-container {
