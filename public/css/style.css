@@ -77,6 +77,11 @@ li {
     color: white;
 }
 
+.nav-left-items a {
+    text-decoration: none !important;
+    color: white;
+}
+
 /* swiper */
 .first .swiper {
     width: 100%;
