@@ -216,6 +216,11 @@
         </div>
         <div class="p-5">
             <div class="swiper mySwiper2">
+                <div class="button">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"><i class="ti ti-arrow-left"></i></div>
+                    <div class="swiper-button-next"><i class="ti ti-arrow-right"></i></div>
+                </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> AUTOMOTIVE</div>
@@ -250,8 +255,6 @@
                             src="public/images/swiper/i3s4.png" alt="">
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
