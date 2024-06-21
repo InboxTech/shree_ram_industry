@@ -117,22 +117,33 @@ li {
     /* position: absolute; */
     display: flex !important;
     top: var(--swiper-navigation-top-offset, 72%);
-
-    height: var(--swiper-navigation-size);
     margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
     z-index: 10;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 300px;
+    height: 9%;
+    width: 4%;
+    font-size: 20px !important;
+}
+.first .swiper-button-next:hover,.first .swiper-button-prev:hover{
+    background-color: var(--orang-color);
 }
 .first .swiper-button-next{
-    width:1%;
-    right: 8%;
+    right: 7%;
 }
 .first .swiper-button-prev{
-    width:1%;
-    left: 87% ;
+    left: 83% ;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 100%;
+    font-weight: 600;
 }
 
 .img-container {
