@@ -10,6 +10,7 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
                     <link href="'.$parentPath.'public/css/style.css" rel="stylesheet" />
+                    <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
 
                     <!-- Bootstrap CSS v5.2.1 -->

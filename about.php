@@ -15,7 +15,14 @@
         </div>
     </div>
 
-        <!--  TESTIMONIALS -->
+    <!-- --------------------------------------- WHO WE ARE --------------------------------------- -->
+     <div class="who-we-are">
+        <div class="who-we-are-img">
+            <img src="public/images/about/who1.png" alt="">
+        </div>
+     </div>
+
+    <!--  TESTIMONIALS -->
     <div class="i-7">
         <div class="top">
             <div class="heading">
