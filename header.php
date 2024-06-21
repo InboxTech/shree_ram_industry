@@ -10,6 +10,7 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
                     <link href="'.$parentPath.'public/css/style.css" rel="stylesheet" />
+                    <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
 
                     <!-- Bootstrap CSS v5.2.1 -->
@@ -45,7 +46,7 @@
                                 <ul>
                                     <li><a href="'.$parentPath.'index.php">Home</a></li>
                                     <li><a href="'.$parentPath.'about.php">About Us</a></li>
-                                    <li><a href="'.$parentPath.'">Services</a></li>
+                                    <li><a href="'.$parentPath.'services.php">Services</a></li>
                                     <li><a href="'.$parentPath.'">Products</a></li>   
                                     <li><a href="'.$parentPath.'">Contact Us</a></li>
                                 </ul>
