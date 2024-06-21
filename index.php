@@ -9,7 +9,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="public/image/swiper/s1.png" alt="" />
+                    <img src="public/images/swiper/s1.png" alt="" />
                     <!-- img text -->
                     <div class="img-container">
                         <div class="">
@@ -19,14 +19,14 @@
                                 We would like introduce ourselves as Supplier of precision
                                 engineering parts for more than 25 years having CNC & VCM
                                 Machines </p>
-                            <button class="btn btn-lg btn-outline-light btn-color">
+                            <button class="btn-outline-white">
                                 Discover More
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="public/image/swiper/s1.png" alt="" />
+                    <img src="public/images/swiper/s1.png" alt="" />
                     <!-- img text -->
                     <div class="img-container">
                         <div class="">
@@ -36,7 +36,7 @@
                                 We would like introduce ourselves as Supplier of precision
                                 engineering parts for more than 25 years having CNC & VCM
                                 Machines </p>
-                            <button class="btn btn-lg btn-outline-light btn-color">
+                            <button class="btn-outline-white">
                                 Discover More
                             </button>
                         </div>
@@ -191,7 +191,7 @@
     <div class="i-3">
         <!-- imge -->
         <div class="col-lg-6 col-md-12">
-            <img src="public/image/i3.png" alt="">
+            <img src="public/images/i3.png" alt="">
         </div>
         <!-- text -->
         <div class="col-lg-6 col-md-12">
@@ -219,35 +219,35 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> AUTOMOTIVE</div>
-                        <img src="public/image/swiper/i3s1.png" alt="">
+                        <img src="public/images/swiper/i3s1.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> POWER INDUSTRY</div>
-                        <img src="public/image/swiper/i3s2.png" alt="">
+                        <img src="public/images/swiper/i3s2.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> HEAVY MANUFACTURING</div>
-                        <img src="public/image/swiper/i3s3.png" alt="">
+                        <img src="public/images/swiper/i3s3.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> OIL AND GAS</div><img
-                            src="public/image/swiper/i3s4.png" alt="">
+                            src="public/images/swiper/i3s4.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> AUTOMOTIVE</div><img
-                            src="public/image/swiper/i3s1.png" alt="">
+                            src="public/images/swiper/i3s1.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> POWER INDUSTRY</div><img
-                            src="public/image/swiper/i3s2.png" alt="">
+                            src="public/images/swiper/i3s2.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> HEAVY MANUFACTURING</div><img
-                            src="public/image/swiper/i3s3.png" alt="">
+                            src="public/images/swiper/i3s3.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <div class="pb-3"><i class="ti ti-point-filled"></i> OIL AND GAS</div><img
-                            src="public/image/swiper/i3s4.png" alt="">
+                            src="public/images/swiper/i3s4.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -265,7 +265,7 @@
                 <h1>Our Products</h1>
             </div>
             <div class=" align-content-center">
-                <a class="btn btn-outline-orange btn-color" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <!-- swiper -->
@@ -274,17 +274,17 @@
             <div class="mt-5">
                 <div class="swiper mySwiper3">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s3.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s5.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.1s6.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s3.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.1s6.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s5.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -292,17 +292,17 @@
             <div class="mt-5">
                 <div class="swiper mySwiper4">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s3.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s5.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5.2s6.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s3.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s4.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/image/swiper/i5s5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5.2s6.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/swiper/i5s5.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -314,10 +314,10 @@
         <div class="top">
             <h4><i class="ti ti-bookmark-filled"></i>OUR CLIENTS</h4>
             <h1>Our Trusted Partners</h1>
-            <img src="public/image/i6.1.png" alt="">
+            <img src="public/images/i6.1.png" alt="">
         </div>
         <div class="mid">
-            <img src="public/image/i6.2.png" alt="">
+            <img src="public/images/i6.2.png" alt="">
             <div class="mid-txt">
                 <div>
                     <p>Clients</p>
@@ -343,11 +343,12 @@
         <div class="bottom">
             <div>
                 <h1>We're protecting your future with the best service</h1>
-                <button><img src="public/image/play-btn.png" alt=""></button>
+                <button><img src="public/images/play-btn.png" alt=""></button>
             </div>
         </div>
     </div>
 
+    <!--  TESTIMONIALS -->
     <div class="i-7">
         <div class="top">
             <div class="heading">
@@ -355,16 +356,16 @@
                 <h1>People Says About Machine</h1>
             </div>
             <div class="view-btn">
-                <a class="btn btn-outline-orange btn-color" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <div class="bottom">
             <div class="comments-img">
-                <img src="public/image/comments-icon.png" alt="">
+                <img src="public/images/comments-icon.png" alt="">
             </div>
             <div class="comments-section">
                 <div class="text">
-                    <img src="public/image/rating-star.png" alt="">
+                    <img src="public/images/rating-star.png" alt="">
                     <label for="">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -377,8 +378,8 @@
                         <h5>CEO, High Rise Construction</h5>
                     </div>
                     <div class="arrow-img-icons">
-                        <a href=""><img src="public/image/left-arrow (2).png" alt=""></a>
-                        <a href=""><img src="public/image/rigth-arrow.png" alt=""></a>
+                        <a href=""><img src="public/images/left-arrow (2).png" alt=""></a>
+                        <a href=""><img src="public/images/rigth-arrow.png" alt=""></a>
                     </div>
                 </div>
             </div>

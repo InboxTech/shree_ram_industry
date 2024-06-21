@@ -39,19 +39,19 @@
                         </div>
                         <div class="nav-2">
                             <div class="first-row">
-                                <img src="'.$parentPath.'public/image/icon.png" alt="">
+                                <img src="'.$parentPath.'public/images/icon.png" alt="">
                             </div>
                             <div class="second-row">
                                 <ul>
-                                    <li><a href="'.$parentPath.'">Home</a></li>
-                                    <li><a href="'.$parentPath.'">About Us</a></li>
+                                    <li><a href="'.$parentPath.'index.php">Home</a></li>
+                                    <li><a href="'.$parentPath.'about.php">About Us</a></li>
                                     <li><a href="'.$parentPath.'">Services</a></li>
                                     <li><a href="'.$parentPath.'">Products</a></li>   
                                     <li><a href="'.$parentPath.'">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="third-row">
-                                <img src="'.$parentPath.'public/image/certification.png" alt="">
+                                <img src="'.$parentPath.'public/images/certification.png" alt="">
                             </div>
                         </div>
                     </nav>

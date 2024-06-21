@@ -14,14 +14,14 @@
                 <h4>Our location:</h4>
             </div>
             <div class="icon">
-                <img src="public/image/location.png" alt="location">
+                <img src="public/images/location.png" alt="location">
                 <div class="ptext">
                     <P class="add1">677, G.I.D.C Estate, Makarpura, Vadodara </p>
                     <p class="add2">-390010, Gujarat, India </p>
                 </div>
             </div>
             <div class="social">
-                <img src="public/image/social.png" alt="Social Media">
+                <img src="public/images/social.png" alt="Social Media">
             </div>
         </div>
         <div class="card1">
