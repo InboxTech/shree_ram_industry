@@ -6,15 +6,15 @@
                 <html lang="en">
                 <head>
                     <title>'.$title.'</title>
+                    <link rel="icon" type="image/x-icon" href="'.$parentPath.'public/images/logo.png">
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
                     <link href="'.$parentPath.'public/css/style.css" rel="stylesheet" />
+                    <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
 
-                    <!-- Bootstrap CSS v5.2.1 -->
-                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                     <link href="https://fonts.googleapis.com" rel="preconnect" />
                     <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
                     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
