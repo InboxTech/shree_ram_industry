@@ -1,7 +1,7 @@
-<?php 
-    include_once ('header.php'); 
-    $header = new Header();
-    $header->includeHeader('About Us', './');
+<?php
+include_once('header.php');
+$header = new Header();
+$header->includeHeader('About Us', './');
 ?>
 <div class="main-body">
     <div class="title-image">
@@ -9,7 +9,7 @@
         <div class="items ">
             <h3 class="title"> About Us </h3>
             <ul>
-                <li><a href="#">Home</a></li>   
+                <li><a href="#">Home</a></li>
                 <li><a href="#"> About Us</a></li>
             </ul>
         </div>
@@ -23,21 +23,21 @@
         <div class="who-we-are-text">
             <h6><i class="ti ti-bookmark-filled"></i> WHO WE ARE</h6>
             <h2>We Provide Excellent Engineering Solutions.</h2>
-            <p><strong>SHREE RAM INDUSTRIES</strong> take immense pride to showcase our company as a 
-                quality driven company at Baroda with the fully equipped shop floor. 
+            <p><strong>SHREE RAM INDUSTRIES</strong> take immense pride to showcase our company as a
+                quality driven company at Baroda with the fully equipped shop floor.
                 Our group Company has been in this precision industry for last 25 years.
             </p>
-            <p>Taking the experience of so many years it has been time proven again & again with our 
-                customers that we provide the best solutions to them in quality, price, delivery and 
-                service all times. SHREE RAM INDUSTRIES is in this field of Machining, Turning Precision 
-                Components ranging from various kinds of shafts, pins, collars, plates, Teflon Parts, 
-                spool, bushes, blocks, punches, orthopedic parts and any customized components as per 
+            <p>Taking the experience of so many years it has been time proven again & again with our
+                customers that we provide the best solutions to them in quality, price, delivery and
+                service all times. SHREE RAM INDUSTRIES is in this field of Machining, Turning Precision
+                Components ranging from various kinds of shafts, pins, collars, plates, Teflon Parts,
+                spool, bushes, blocks, punches, orthopedic parts and any customized components as per
                 customer requirements.
             </p>
             <p>
-                our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long. 
-                We are quite conversant with machining raw material from M.S., EN Series, 
-                Alloy  steel, Stainless Steels, Brass, Copper, Ptfe, WPS and Aluminum etc. 
+                our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
+                We are quite conversant with machining raw material from M.S., EN Series,
+                Alloy steel, Stainless Steels, Brass, Copper, Ptfe, WPS and Aluminum etc.
                 Looking forward to a healthy business relationship.
             </p>
         </div>
@@ -54,15 +54,15 @@
                 <li>
                     <h4>01</h4>
                     <h5>Advanced Equipment</h5>
-                    <p>Operate a world-class facility with a variety of precision 
-                        CNC machines - vertical milling centers and precision milling 
+                    <p>Operate a world-class facility with a variety of precision
+                        CNC machines - vertical milling centers and precision milling
                         and turning lathes, including 3-; 4- and 5-axis models
                     </p>
                 </li>
                 <li>
                     <h4>02</h4>
                     <h5>Quick turn & Service</h5>
-                    <p>skilled machinists produce high-quality parts as little as 
+                    <p>skilled machinists produce high-quality parts as little as
                         3-6 working days if the CNC milling parts order with 100 parts
                     </p>
                 </li>
@@ -88,29 +88,29 @@
             </ul>
     </div>
 
-    <!-- -------------------------------------------- OUR CLIENTS -------------------------------------------- -->
+    <!-- -------------------------------------------- OUR Vision & Mission -------------------------------------------- -->
     <div class="our-vision-mission">
         <h6><i class="ti ti-bookmark-filled"></i> Our Vision and Mission</h6>
         <div class="our-mission">
             <h2>Our Mission</h2>
             <p>
-                Our vision is to have a long lasting relationship with our 
-                Buyers / Importers / Vendors and with our staff/workers to be 
+                Our vision is to have a long lasting relationship with our
+                Buyers / Importers / Vendors and with our staff/workers to be
                 a global multi country product/service facilitator.
             </p>
             <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, 
+                Lorem ipsum is placeholder text commonly used in the graphic,
                 print, and publishing industries for previewing layouts and visual mockups.
             </p>
         </div>
         <div class="our-vision">
             <h2>Our Vision</h2>
             <p>
-                Our mission is to provide authentic quality products / 
+                Our mission is to provide authentic quality products /
                 services at a reasonable reliable price.
             </p>
             <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, 
+                Lorem ipsum is placeholder text commonly used in the graphic,
                 print, and publishing industries for previewing layouts and visual mockups.
             </p>
         </div>
@@ -136,8 +136,8 @@
                 <div class="text">
                     <img src="public/images/rating-star.png" alt="">
                     <label for="">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit .
                     </label>
                 </div>
@@ -155,4 +155,4 @@
         </div>
     </div>
 </div>
-<?php include_once ('footer.php');?>
+<?php include_once('footer.php'); ?>

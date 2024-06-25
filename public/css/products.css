@@ -1,0 +1,26 @@
+
+/**------------------------------------------------ PRODUCTS START ---------------------------------------------------------*/
+
+.our-products{
+    background-color: #FFFFFF;
+    padding: 100px;
+    display: grid;
+    text-align: center;
+}
+.our-products h6{
+    color: var(--orang-color);
+    margin-bottom: 1.5%;
+}
+.our-products ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 0;
+    margin-top: 4%;
+}
+.our-products li img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
