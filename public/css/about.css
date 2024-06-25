@@ -46,11 +46,103 @@
 /**------------------------------------------------- WHO WE ARE ----------------------------------------------------------*/
 .who-we-are{
     display: flex;
-    padding: 50px;
+    flex-wrap: wrap;
+    padding: 100px;
 }
 .who-we-are-img{
-    width: 50%;
-    height: 100%;
+    display: flex;
     justify-content: center;
+    padding-right: 1%;
 }
-/**------------------------------------------------ ABOUT US End ---------------------------------------------------------*/
+.who-we-are-img img{
+    display: block;
+    object-fit: contain;
+    height: 90%;
+    width: 90%;
+}
+.who-we-are-text{
+    padding-left: 1%;
+}
+.who-we-are-text h6{
+    color: var(--orang-color);
+}
+
+
+/**------------------------------------------------ Why Choose Us ---------------------------------------------------------*/
+.why-choose-us{
+    padding: 100px;
+    background-color: #F2F2F2;
+}
+.why-choose-us ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 40px 0;
+}
+.why-choose-us li {
+    flex: 1 0 30%;
+    margin: 0 20px 20px 0;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow:0.3px 0.2px 2.6px var(--orang-color);
+    background-color: #FFFFFF;
+}
+
+/**------------------------------------------------ OUR CLIENTS ---------------------------------------------------------*/
+.our-clients{
+    background-color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+}
+.our-clients h6{
+    color: var(--orang-color);
+    margin-bottom: 1.5%;
+}
+.our-clients ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+
+/**------------------------------------------- Our Vision and Mission -----------------------------------------------------*/
+.our-vision-mission{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    color: #FFFFFF;
+    background-color: #15141C;
+}
+.our-vision-mission h6{
+    color: var(--orang-color);
+    width: 100%;
+}
+
+/**------------------------------------------- media qurry -----------------------------------------------------*/
+@media (min-width: 768px) {
+    .who-we-are-img, .our-mission {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 1% 2% 1% 0;
+    }
+    .who-we-are-text,.our-vision{
+    flex: 0 0 auto;
+        width: 100%;
+        padding: 1% 0 1% 2%;
+    }
+}
+@media (min-width: 992px) {
+    .who-we-are-img, .our-mission {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 1% 2% 1% 0;
+    }
+    .who-we-are-text,.our-vision{
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 1% 0 1% 2%;
+    }
+}
