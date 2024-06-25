@@ -1,7 +1,7 @@
 <?php
     include_once('header.php');
     $header = new Header();
-    $header->includeHeader('Services', './');
+    $header->includeHeader('Products', './');
 ?>
 
 <div class="main-body-servicers">
