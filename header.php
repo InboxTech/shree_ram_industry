@@ -14,6 +14,7 @@
                     <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
+                    <link href="'.$parentPath.'public/bootstrap/bootstrap.min.css" rel="stylesheet">
 
                     <link href="https://fonts.googleapis.com" rel="preconnect" />
                     <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />

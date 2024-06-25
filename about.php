@@ -80,11 +80,11 @@
             <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
             <h2>Our Trusted Partners</h2>
             <ul>
-                <li><img src="public/images/about/client-1.png" alt=""></li>
-                <li><img src="public/images/about/client-2.png" alt=""></li>
-                <li><img src="public/images/about/client-3.png" alt=""></li>
-                <li><img src="public/images/about/client-4.png" alt=""></li>
-                <li><img src="public/images/about/client-5.png" alt=""></li>
+                <li><a href="#"><img src="public/images/about/client-1.png" alt=""></a></li>
+                <li><a href="#"><img src="public/images/about/client-2.png" alt=""></a></li>
+                <li><a href="#"><img src="public/images/about/client-3.png" alt=""></a></li>
+                <li><a href="#"><img src="public/images/about/client-4.png" alt=""></a></li>
+                <li><a href="#"><img src="public/images/about/client-5.png" alt=""></a></li>
             </ul>
     </div>
 

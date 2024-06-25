@@ -89,3 +89,27 @@
    filter: none !important;
    transition: filter 0.4s ease; 
 }  
+
+.main-body-servicers .our-clients {
+   background-color: #F2F2F2;
+}
+
+/*------------------------------------------------------------------*  SERVICES DETAILS START ------------------------------------------------ */
+
+.services-details {
+   display: flex;
+   flex-direction: column;
+   padding: 100px;
+   gap: 50px;
+}
+
+.our-services-details {
+   display: flex;
+   flex-direction: column;
+}
+
+.our-services-details h6 {
+   color: var(--orang-color);
+}
+
+/*------------------------------------------------------------------*  SERVICES DETAILS END ------------------------------------------------ */
