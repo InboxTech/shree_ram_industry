@@ -98,11 +98,10 @@ var swiper = new Swiper(".mySwiper4", {
 
 var swiper = new Swiper(".mySwiper5", {
   slidesPerView: 3,
-  spaceBetween: 40,
   loop: true,
-//   speed: 1000,
-//   autoplay: {
-//     delay: 1000,
-//     disableOnInteraction: false,
-//   },
+  speed: 1000,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
 });
