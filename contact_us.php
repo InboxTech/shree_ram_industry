@@ -16,20 +16,57 @@
         </div>
     </div>
 
-<div class="map-items">
-    <div class="map-img">
-        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1719374913482!5m2!1sen!2sin!6m8!1m7!1sENH96YMpLWyK9uJ0SvSpYQ!2m2!1d19.16500516749226!2d72.84708774672261!3f257.265598129557!4f10.827421560321866!5f0.7820865974627469" 
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="map-content">
-            <div class="map-add">
-                <h6><i></i>Store 1</h6>
-                <label for="">Address: <br><span> G I D C Estate, C-1-677, Makarpura, Vadodara, Gujarat - 390 010. </label></span><br>
-                <label for="">Email: <br><span> info@shreeramindustry.in </span></label><br>
-                <label for="">Call: <br><span> +91 74900 04746 </span></label><br>
+    <div class="map-items">
+        <div class="map-img">
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1719390144432!5m2!1sen!2sin!6m8!1m7!1sWl3hLkig4e0acLag8NrDhA!2m2!1d22.24808194184483!2d73.18115284078723!3f270.44455!4f0!5f0.7820865974627469"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content">
+                <div class="map-add">
+                    <h2><i class="ti ti-building-store"></i>Store 1</h2>
+                    <label for="">Address: <br><span> G I D C Estate, C-1-677, Makarpura, Vadodara, Gujarat - 390 010. </label></span><br>
+                    <label for="">Email: <br><span> info@shreeramindustry.in </span></label><br>
+                    <label for="">Call: <br><span> +91 74900 04746 </span></label><br>
+                </div>
+                <div class="navigation">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17565.736531574938!2d73.18613831784936!3d22.24989528610248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5423e21f48b%3A0xdb5ef45b87de6c25!2sShree%20Ram%20industries!5e0!3m2!1sen!2sin!4v1719390113220!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div class="navigation">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.147496915326!2d73.18083077586655!3d22.310260842533282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65249098c37%3A0xaf37aa47cd30c21c!2sStation%20Rd%2C%20Maharaja%20Sayajirao%20University%2C%20Sayajiganj%2C%20Vadodara%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1719375009311!5m2!1sen!2sin" 
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-us-our-store">
+            <div class="our-title">
+                <h6><i class="ti ti-bookmark-filled"></i>Our Store</h6>
+                <h2>Others Store</h2>
+            </div>
+            <div class="contact-us-cards">
+                <ul>
+                    <li>
+                        <div class="contact-us-card">
+                            <div class="card-title">
+                                <h4>02</h4>
+                            </div>
+                            <div class="card-body">
+                                <h4>USA</h4>
+                                <h5>Waco, Texas, USA</h5>
+                                <a href="#"><i class="ti ti-mail"></i> npatel@shreeramindustry.in</a><br>
+                                <a href="$"><i class="ti ti-phone"></i> +1(580) 263 4223</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-us-card">
+                            <div class="card-title">
+                                <h4>02</h4>
+                            </div>
+                            <div class="card-body">
+                                <h4>USA</h4>
+                                <h5>Waco, Texas, USA</h5>
+                                <a href="#"><i class="ti ti-mail"></i> npatel@shreeramindustry.in</a><br>
+                                <a href="$"><i class="ti ti-phone"></i> +1(580) 263 4223</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

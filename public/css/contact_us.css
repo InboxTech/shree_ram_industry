@@ -13,3 +13,58 @@
 .navigation {
     width: 60%;
 }
+
+.map-add label {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.map-add  span {
+   color: var(--orang-color) ;
+}
+.contact-us-our-store .our-title {
+   text-align: center;
+}
+.our-title h6 {
+    color: var(--orang-color);
+}
+.contact-us-cards ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contact-us-cards ul li {
+    width: 30%;
+}
+.contact-us-cards ul li{
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+.contact-us-card{
+    display: flex;
+    align-items: center;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.card-title h4 {
+    background-color: #F2F2F2;
+    color: var(--orang-color);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.contact-us-cards ul li a{
+    text-decoration: none;
+    color: #727272;
+    padding-bottom: 18px;
+}
