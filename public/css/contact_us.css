@@ -1,0 +1,15 @@
+.map-items {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+} 
+.map-items .map-content {
+    display: flex;
+    margin-top: 40px;
+}
+.map-add {
+    width: 40%;
+}
+.navigation {
+    width: 60%;
+}
