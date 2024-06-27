@@ -47,10 +47,10 @@
                             </div>
                             <div class="second-row">
                                 <ul>
-                                    <li><a href="'.$parentPath.'index.php">Home</a></li>
+                                    <li><a class="active" href="'.$parentPath.'index.php">Home</a></li>
                                     <li><a href="'.$parentPath.'about.php">About Us</a></li>
                                     <li><a href="'.$parentPath.'services.php">Services</a></li>
-                                    <li><a href="'.$parentPath.'products.php">Products</a></li>   
+                                    <li><a href="'.$parentPath.'products.php">Products <i class="ti ti-chevron-down"></i> </a></li>   
                                     <li><a href="'.$parentPath.'contact_us.php">Contact Us</a></li>
                                 </ul>
                             </div>

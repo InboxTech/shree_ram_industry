@@ -2,80 +2,62 @@
 <script src="public/js/Swiper.js"></script>
 
 <footer>
-    <div class="sub">
-        <div class="card1">
-            <div class="title1">
-                <h4>Subscribe now!</h4>
+    <div class="footer-area">
+        <div class="subscribe">
+            <h4>Subscribe now!</h4>
+            <div class="input-box">
+                <input type="text" placeholder="Enter Your Email">
+                <button><i class="ti ti-send"></i></button>
+                <!-- <input type="text" placeholder="Enter Your Email" name=""><i class="ti ti-send"></i> -->
             </div>
-            <div class="textbox">
-                <input type="text" placeholder="Enter Your" id="textbox">
+            <h4>Our location:</h4>
+            <div class="location">
+                <i class="ti ti-map-pin"></i>
+                <label for="">677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India</label>
             </div>
-            <div class="title2">
-                <h4>Our location:</h4>
+            <div class="location2">
+            <p><a href="#"><i class="ti ti-brand-facebook"></i></a></p>
+                <p><a href="#"><i class="ti ti-brand-instagram"></i></a></p>
+                <p><a href="#"><i class="ti ti-brand-linkedin"></i></a></p>
+                <p><a href="#"><i class="ti ti-brand-pinterest"></i></a></p>
             </div>
-            <div class="icon">
-                <img src="public/images/location.png" alt="location">
-                <div class="ptext">
-                    <P class="add1">677, G.I.D.C Estate, Makarpura, Vadodara </p>
-                    <p class="add2">-390010, Gujarat, India </p>
-                </div>
-            </div>
-            <div class="social">
-                <img src="public/images/social.png" alt="Social Media">
+        
+        </div>
+        <div class="queck-links">
+            <h4>Quick Links</h4>
+            <div class="queck-links-items" >
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
             </div>
         </div>
-        <div class="card1">
-            <div class="title3">
-                <h4>Quick Links</h4>
+        <div class="get-in-touch">
+            <h4>Get in touch</h4>
+            <div class="phone">
+                <label for="">Our phone number</label> <div class="line"></div>
+                <p><a href="">+91 74900 04746</a></p>
             </div>
-            <div class="main-items-ss">
-                <div class="tag">
-                    <ul>
-                        <li> <a href="http://#">Home</a> </li>
-                        <li> <a href="http://#">Services </a> </li>
-                        <li> <a href="http://#">Products</a> </li>
-                        <li> <a href="http://#">Contact</a> </li>
-                        <li> <a href="http://#">Our Partners</a> </li>
-                    </ul>
-                </div>
-
-                <div class="tag">
-                    <ul>
-                        <li> <a href="http://#">Privacy policy</a> </li>
-                        <li> <a href="http://#">Sitemap </a> </li>
-
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="title4">
-                <h4>Get in touch</h4>
-            </div>
-
-            <div class="gtext">
-                <P class="add3">Our phone number </p>
-                <hr>
-                <p class="add4">+91 74900 04746</p>
-            </div>
-
-            <div class="Etext">
-                <P class="add3">Our Email Address </p>
-                <hr>
-                <p class="add4">info@shreeramindustry.in</p>
+            <div class="email">
+                <label for="">Our Email Address</label> <div class="line"></div>
+                <p><a href="">info@shreeramindustry.in</a></p>
             </div>
         </div>
     </div>
-    <div class="last">
-        <hr>
-        <div class="Copyright">
-            <p>SHREE RAM INDUSTRIES © 2024. All rights reserved.</p>
-            <p>Design & Develop by Inbox Infotech.</p>
-        </div>
+    <div class="line"></div>
+    <div class="copy-rights">
+        <label for="">SHREE RAM INDUSTRIES © 2024. All rights reserved.</label>
+        <label for="">Design & Develop by Inbox Infotech.</label>
     </div>
 </footer>
-
 </body>
 </html>

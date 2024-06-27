@@ -54,6 +54,7 @@
   overflow: hidden;
   border-radius: 10px;
   filter: brightness(0.5);
+  width: 100%;
 }
 
 .main .main-items-services img {

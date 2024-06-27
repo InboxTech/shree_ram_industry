@@ -4,13 +4,13 @@
     $header->includeHeader('Index', './');
 ?>
 <main>
-    <!-- swiper -->
+    <!---------------------------- swiper ------------------------------>
     <div class="first">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="public/images/swiper/s1.png" alt="" />
-                    <!-- img text -->
+                    <!------------------------------ img text ------------------------------>
                     <div class="img-container">
                         <div class="">
                             <span class="img-sb-title">TOTAL ENGINEERING SOLUTIONS</span><br />
@@ -27,7 +27,7 @@
                 </div>
                 <div class="swiper-slide">
                     <img src="public/images/swiper/s1.png" alt="" />
-                    <!-- img text -->
+                    <!------------------------------ img text ------------------------------>
                     <div class="img-container">
                         <div class="">
                             <span class="img-sb-title">TOTAL ENGINEERING SOLUTIONS</span><br />
@@ -49,12 +49,12 @@
         </div>
     </div>
 
-    <!-- OUR WORKING STATEGIES  -->
+    <!------------------------------ OUR WORKING STATEGIES  ------------------------------>
     <div class="i-1">
         <!-- text -->
         <div class="col-lg-6 col-md-12">
             <div>
-                <h4 class="title"><i class="ti ti-bookmark-filled"></i> OUR WORKING STATEGIES</h4>
+                <h4><i class="ti ti-bookmark-filled"></i> OUR WORKING STATEGIES</h4>
                 <h1 class="sub-title">We Provide Excellent Engineering Solutions.</h1>
             </div>
             <div>
@@ -73,10 +73,10 @@
                     sheets containing Lorem Ipsum passages, and more recently with
                     desktop.
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="">View More <i class="ti ti-chevrons-right"></i></a>
             </div>
         </div>
-        <!-- card -->
+        <!------------------------------ card ------------------------------>
         <div class="col-lg-5 col-md-12">
             <div class="row">
                 <div class="cards">
@@ -125,13 +125,13 @@
         </div>
     </div>
 
-    <!-- OUR BEST SERVICES -->
+    <!------------------------------ OUR BEST SERVICES ------------------------------>
     <div class="i-2">
         <h4><i class="bi bi-bookmark-fill"></i> OUR BEST SERVICES</h4>
         <h2>Why we are different</h2>
         <ul>
             <li>
-                <h4>01</h4>
+                <h4>01</h4> 
                 <h5>CNC & VMC Machining Services</h5>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -187,13 +187,11 @@
         </ul>
     </div>
 
-    <!-- WHO ARE WE ? -->
+    <!------------ ------------------ WHO ARE WE ? ------------------------------>
     <div class="i-3">
-        <!-- imge -->
         <div class="col-lg-6 col-md-12">
             <img src="public/images/i3.png" alt="">
         </div>
-        <!-- text -->
         <div class="col-lg-6 col-md-12">
             <h4><i class="ti ti-bookmark-filled"></i>WHO ARE WE ?</h4>
             <h1>SHREE RAM INDUSTRIES</h1>
@@ -208,7 +206,7 @@
         </div>
     </div>
 
-    <!-- INDUSTRIES WE SERVE -->
+    <!------------------------------ INDUSTRIES WE SERVE ------------------------------>
     <div class="i-4">
         <div>
             <h4><i class="ti ti-bookmark-filled"></i>INDUSTRIES WE SERVE</h4>
@@ -259,7 +257,7 @@
         </div>
     </div>
 
-    <!-- Our Products -->
+    <!------------------------------ Our Products ------------------------------>
     <div class="i-5">
         <!-- title -->
         <div class="d-flex justify-content-between">
@@ -271,9 +269,9 @@
                 <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
-        <!-- swiper -->
+        <!------------------------------ swiper ------------------------------>
         <div>
-            <!-- swiper 1 -->
+            <!------------------------------ swiper 1 ------------------------------>
             <div class="mt-5">
                 <div class="swiper mySwiper3">
                     <div class="swiper-wrapper">
@@ -291,7 +289,7 @@
                     </div>
                 </div>
             </div>
-            <!-- swiper 2 -->
+            <!------------------------------ swiper 2 ------------------------------>
             <div class="mt-5">
                 <div class="swiper mySwiper4">
                     <div class="swiper-wrapper">
@@ -312,7 +310,7 @@
         </div>
     </div>
 
-    <!-- OUR CLIENTS -->
+    <!------------------------------ OUR CLIENTS ------------------------------>
     <div class="i-6">
         <div class="top">
             <h4><i class="ti ti-bookmark-filled"></i>OUR CLIENTS</h4>
@@ -351,7 +349,7 @@
         </div>
     </div>
 
-    <!--  TESTIMONIALS -->
+    <!------------------------------  TESTIMONIALS ------------------------------>
     <div class="i-7">
         <div class="top">
             <div class="heading">
@@ -389,7 +387,7 @@
         </div>
     </div>
 
-    <!-- Let’s Talk About : -->
+    <!------------------------------ Let’s Talk About : ------------------------------>
     <div class="i-8">
         <div class="col-lg-5 col-md-12 m-3">
             <div class="contents">
@@ -410,7 +408,7 @@
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                    <input type="text" class="form-control" placeholder="Enter Your Last Name">
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Email</label>
@@ -425,7 +423,7 @@
                     <textarea class="form-control" rows="3" placeholder="Enter Your Messages"></textarea>
                 </div>
                 <div class="d-flex ">
-                    <button type="submit" class="btn btn-orange btn-normal ">Send Messages</button>
+                    <button type="submit" class="btn-outline-orange">Send Messages</button>
                 </div>
             </form>
         </div>
