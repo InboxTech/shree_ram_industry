@@ -404,26 +404,26 @@
             <form class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Your First Name">
+                    <input type="text" class="form-control" placeholder="Enter Your First Name" required>
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Your Last Name">
+                    <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                    <input type="email" class="form-control" placeholder="Enter Your Email" required>
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Company Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Your Company name">
+                    <input type="text" class="form-control" placeholder="Enter Your Company name" required>
                 </div>
                 <div class="mb-3 col-12">
                     <label class="form-label">Messages</label>
-                    <textarea class="form-control" rows="3" placeholder="Enter Your Messages"></textarea>
+                    <textarea class="form-control" rows="3" placeholder="Enter Your Messages" required></textarea>
                 </div>
                 <div class="d-flex ">
-                    <button type="submit" class="btn-outline-orange">Send Messages</button>
+                    <input type="submit" class="btn-outline-orange" value="Send Messages">
                 </div>
             </form>
         </div>

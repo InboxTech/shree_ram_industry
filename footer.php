@@ -6,9 +6,10 @@
         <div class="subscribe">
             <h4>Subscribe now!</h4>
             <div class="input-box">
-                <input type="text" placeholder="Enter Your Email">
-                <button><i class="ti ti-send"></i></button>
-                <!-- <input type="text" placeholder="Enter Your Email" name=""><i class="ti ti-send"></i> -->
+                <form action="">
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <button type="submit"><i class="ti ti-send"></i></button>
+                </form>
             </div>
             <h4>Our location:</h4>
             <div class="location">
@@ -21,7 +22,6 @@
                 <p><a href="#"><i class="ti ti-brand-linkedin"></i></a></p>
                 <p><a href="#"><i class="ti ti-brand-pinterest"></i></a></p>
             </div>
-        
         </div>
         <div class="queck-links">
             <h4>Quick Links</h4>
