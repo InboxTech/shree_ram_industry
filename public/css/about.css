@@ -73,14 +73,17 @@
     padding: 100px;
     background-color: #F2F2F2;
 }
-.why-choose-us ul {
+.why-choose-us-title h6, .why-choose-us-card h4{
+    color: var(--orang-color);
+}
+.why-choose-us-card ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
     margin: 40px 0;
 }
-.why-choose-us li {
+.why-choose-us-card li {
     flex: 1 0 30%;
     margin: 0 20px 20px 0;
     padding: 30px;

@@ -54,7 +54,7 @@
         <!-- text -->
         <div class="col-lg-6 col-md-12">
             <div>
-                <h4 class="title"><i class="ti ti-bookmark-filled"></i> OUR WORKING STATEGIES</h4>
+                <h4><i class="ti ti-bookmark-filled"></i> OUR WORKING STATEGIES</h4>
                 <h1 class="sub-title">We Provide Excellent Engineering Solutions.</h1>
             </div>
             <div>
@@ -127,7 +127,7 @@
 
     <!-- OUR BEST SERVICES -->
     <div class="i-2">
-        <h4><i class="bi bi-bookmark-fill"></i> OUR BEST SERVICES</h4>
+        <h4><i class="ti ti-bookmark-filled"></i> OUR BEST SERVICES</h4>
         <h2>Why we are different</h2>
         <ul>
             <li>
