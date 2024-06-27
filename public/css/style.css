@@ -168,7 +168,6 @@ li {
 }
 /* -------------------------------- nav ends -------------------------------- */
 
-
 /* -------------------------------- swiper --------------------------------  */
 .first .swiper {
     width: 100%;
@@ -869,3 +868,95 @@ footer .phone {
     height: 1px;
     margin: 10px 0px;
 }
+
+/* -------------------------------- Media Query For Mobile All Start -------------------------------- */
+
+
+/* -------------------------------- nav responsive for mobile start -------------------------------- */
+
+@media (max-width: 768px) {
+    .nav-all-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-left-items {
+        display: none;
+    }
+
+    .second-row ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-row {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-row img {
+        width: 80px;
+        height: auto;
+    }
+
+    .second-row ul {
+        gap: 5px;
+    }
+}
+/* -------------------------------- nav responsive for mobile  end-------------------------------- */
+
+
+/* -------------------------------- footer responsive for mobile start -------------------------------- */
+
+@media (max-width: 992px) {
+    .footer-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe, .queck-links, .get-in-touch {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .location .ti{
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .copy-rights {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copy-rights label {
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .subscribe, .queck-links, .get-in-touch {
+        width: 100%;
+    }
+    .subscribe .input-box input {
+        margin-right: -45px;
+    }
+
+}
+/* -------------------------------- footer responsive for mobile end -------------------------------- */
