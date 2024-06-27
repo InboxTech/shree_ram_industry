@@ -14,6 +14,7 @@
                     <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/products.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
+                    <link href="'.$parentPath.'public/css/contact_us.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
                     <link href="'.$parentPath.'public/bootstrap/bootstrap.min.css" rel="stylesheet">
 
@@ -50,7 +51,7 @@
                                     <li><a href="'.$parentPath.'about.php">About Us</a></li>
                                     <li><a href="'.$parentPath.'services.php">Services</a></li>
                                     <li><a href="'.$parentPath.'products.php">Products</a></li>   
-                                    <li><a href="'.$parentPath.'">Contact Us</a></li>
+                                    <li><a href="'.$parentPath.'contact_us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="third-row">
