@@ -56,13 +56,13 @@
                     <li>
                         <div class="contact-us-card">
                             <div class="card-title">
-                                <h4>02</h4>
+                                <h4>03</h4>
                             </div>
                             <div class="card-body">
-                                <h4>USA</h4>
-                                <h5>Waco, Texas, USA</h5>
-                                <a href="#"><i class="ti ti-mail"></i> npatel@shreeramindustry.in</a><br>
-                                <a href="$"><i class="ti ti-phone"></i> +1(580) 263 4223</a>
+                                <h4>AUSTRALIA</h4>
+                                <h5>Melbourne, Victoria, Australia</h5>
+                                <a href="#"><i class="ti ti-mail"></i> pdesai@shreeramindustry.in</a><br>
+                                <a href="$"><i class="ti ti-phone"></i> +61 401 849 022</a>
                             </div>
                         </div>
                     </li>

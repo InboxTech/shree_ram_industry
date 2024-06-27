@@ -36,7 +36,7 @@
                                 </ul>
                                 <div class="nav-left-items">
                                     <ul>
-                                        <li> <i class="ti ti-file-description"></i> <a href="'.$parentPath.'public/downloads/brochure.pdf"> Download Our Brochure </a></li>
+                                        <li> <i class="ti ti-file-description"></i> <a href="'.$parentPath.'public/downloads/brochure.pdf" target="_blank"> Download Our Brochure </a></li>
                                     </ul>
                                 </div>
                             </div>

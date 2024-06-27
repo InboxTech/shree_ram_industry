@@ -7,6 +7,7 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+
 body{
     background-color: #FFFFFF;
 }
@@ -15,7 +16,7 @@ li {
     list-style: none;
 }
 
-/** buttons start */
+/* -------------------------------- buttons start -------------------------------- */
 
 .btn-outline-orange {
     color: var(--orang-color);
@@ -41,10 +42,9 @@ li {
     background-color: var(--orang-color);
     color: white;
 }
-/** button ends */
+/* -------------------------------- button ends -------------------------------- */
 
-
-/* navbar */
+/* -------------------------------- navbar -------------------------------- */
 .nav-all-items {
     display: flex;
     justify-content: space-between;
@@ -202,7 +202,7 @@ li {
 }
 
 
-/** nav-2 */
+/* -------------------------------- nav-2 -------------------------------- */
 
 .nav-2 {
     display: flex;
@@ -252,9 +252,9 @@ li {
 .third-row {
     padding: 20px;
 }
+/* -------------------------------- nav ends -------------------------------- */
 
-
-/* main page */
+/* -------------------------------- main page -------------------------------- */
 p {
     text-align: justify;
 }
@@ -278,7 +278,7 @@ p {
     text-decoration: none;
 }
 
-/* item-1 */
+/*  -------------------------------- item-1 -------------------------------- */
 .i-1 {
     display: flex;
     flex-wrap: wrap;
@@ -313,7 +313,7 @@ p {
     background-color: #FFFFFF;
 }
 
-/* item-2 */
+/* -------------------------------- item-2 -------------------------------- */
 .i-2 {
     background-image: url(../images/i2.png);
     color: #FFFFFF;
@@ -341,16 +341,16 @@ p {
     height: 240px !important;
 }
 
-/** hover image start*/
+/* -------------------------------- hover image start -------------------------------- */
 
 .i-2 li:hover {
     background-image: url(../images/hover-img.png); 
     cursor: pointer;
 }
-/** hover images ends*/
+/* -------------------------------- hover images ends  -------------------------------- */
 
 
-/* item 3 */
+/* -------------------------------- item 3 -------------------------------- */
 .i-3 {
     display: flex;
     padding: 100px;
@@ -364,7 +364,7 @@ p {
     object-fit: contain !important;
 }
 
-/* item 4 */
+/* -------------------------------- item 4 -------------------------------- */
 .i-4 {
     padding: 100px;
     background-color: #FFFFFF;
@@ -441,7 +441,7 @@ p {
     content: '0';
 }
 
-/* item 5 */
+/* -------------------------------- item 5  -------------------------------- */
 .i-5 {
     padding: 100px;
     background-color: #F2F2F2;
@@ -465,7 +465,7 @@ p {
     object-fit: cover;
   }
 
-/* item 6 */
+/*  -------------------------------- item 6 --------------------------------  */
 .i-6 {
     background-color: #F2F2F2;
 }
@@ -549,7 +549,7 @@ p {
 }
 
 
-/** items 7 */
+/* --------------------------------  items 7  -------------------------------- */
 
 .i-7 {
     display: flex;
@@ -599,7 +599,7 @@ p {
     gap: 10px;
 }
 
-/* item 8 */
+/* -------------------------------- item 8  -------------------------------- */
 .i-8 {
     padding: 100px;
     background-color: #ffffff;
@@ -662,14 +662,8 @@ p {
     color: var(--orang-color);
     border: 1px solid var(--orang-color);
 }
-/* extra */
-.test {
-    background-color: red;
-    justify-content: space-between !important;
-}
 
-
-/* mobile and laptop responsive */
+/* -------------------------------- mobile and laptop responsive  -------------------------------- */
 @media only screen and (max-width: 768px) {
     .i-1,
     .i-2,
@@ -753,7 +747,7 @@ p {
     } 
 }
 
-/* footer section */
+/* -------------------------------- footer section -------------------------------- */
 footer {
     background-color: #15151D;
 
