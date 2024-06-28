@@ -44,6 +44,7 @@
                         <div class="nav-2">
                             <div class="first-row">
                                 <img src="'.$parentPath.'public/images/icon.png" alt="">
+                                 <i class="ti ti-baseline-density-medium" onclick="TogglerButton()"></i>
                             </div>
                             <div class="second-row">
                                 <ul>
