@@ -91,6 +91,11 @@
     background-color: #FFFFFF;
 }
 
+.why-choose-us h6, .why-choose-us-card h4, .our-clients h6, .our-vision-mission h6, .who-we-are-text h6{
+    color: var(--orang-color);
+    font-weight: bold;
+}
+
 /**------------------------------------------------ OUR CLIENTS ---------------------------------------------------------*/
 .our-clients{
     background-color: #FFFFFF;
@@ -132,7 +137,7 @@
     }
     .title-image .items ul {
         gap: 8px;
-        padding: 8px;
+        padding: 0px;
     }
     .title-image .items ul li::after {
         height: 20px;
@@ -151,7 +156,7 @@
 
 @media (max-width: 576px) {
     .who-we-are{
-     padding: 50px;
+     padding: 15px;
     }
     p {
         text-align: left;
@@ -164,6 +169,7 @@
     .our-clients ul {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
     }
 
     .our-clients ul li {
@@ -176,6 +182,14 @@
 @media (max-width: 576px)  {
     .why-choose-us {
         padding: 50px;
+    }
+
+    .our-vision-mission {
+        padding: 20px;
+    }
+
+    .why-choose-us li {
+        padding: 15px;
     }
 }
 

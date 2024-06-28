@@ -30,4 +30,9 @@
         padding: 20px;
         text-align: left;
     }
+
+    .our-products ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }  

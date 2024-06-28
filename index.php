@@ -266,7 +266,7 @@
                 <h1>Our Products</h1>
             </div>
             <div class=" align-content-center">
-                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="#">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <!------------------------------ swiper ------------------------------>
