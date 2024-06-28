@@ -24,3 +24,10 @@
     width: 100%;
     object-fit: contain;
 }
+
+@media (max-width: 576px) {
+    .our-products {
+        padding: 20px;
+        text-align: left;
+    }
+}  

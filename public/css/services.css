@@ -8,7 +8,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px;
   margin: 20px;
@@ -156,3 +155,43 @@
 }
 
 /*------------------------------------------------------------------*  SERVICES DETAILS END ------------------------------------------------ */
+
+
+@media (max-width: 576px) {
+  .main{
+   display: flex;
+   flex-direction: column;
+   margin-top: 30%;
+  }
+
+  .our-clients {
+    padding: 20px;
+  }
+
+  .our-clients ul li {
+    padding-left: 0px;
+  }
+
+  .main-body-servicers .content h6 {
+    padding: 0px;
+  }
+
+  .content {
+    display: block;
+  }
+
+  /* service_details media query  */
+
+  .services-details{
+    padding: 10px;
+  }
+  .our-services-details {
+    padding: 10px;
+  }
+
+  .swiper-slide .swiper-service-text, .swiper-slide .swiper-service-text p {
+    height: 30px;
+    width: 85%;
+    font-size: 10px;
+  }
+}
