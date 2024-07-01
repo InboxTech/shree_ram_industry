@@ -15,7 +15,6 @@
             </ul>
         </div>
     </div>
-
     <!-- -------------------------------------------- Our Products -------------------------------------------- -->
     <div class="our-products">
         <h6><i class="ti ti-bookmark-filled"></i> Our Products</h6>
@@ -38,9 +37,6 @@
             <li><img src="public/images/swiper/i5.2s6.png" alt=""></li>
         </ul>
     </div>
-
-
-
 </div>
 
 <?php include_once('footer.php');?>

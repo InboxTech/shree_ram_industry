@@ -1,7 +1,7 @@
 <?php
-include_once('header.php');
-$header = new Header();
-$header->includeHeader('About Us', './');
+    include_once('header.php');
+    $header = new Header();
+    $header->includeHeader('About Us', './');
 ?>
 <div class="main-body">
     <div class="title-image">
@@ -155,4 +155,5 @@ $header->includeHeader('About Us', './');
         </div>
     </div>
 </div>
+
 <?php include_once('footer.php'); ?>
