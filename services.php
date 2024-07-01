@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-    <!-- OUR  CLIENTS-->
+    <!-- OUR CLIENTS-->
     <div class="our-clients">
             <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
             <h2>Our Trusted Partners</h2>

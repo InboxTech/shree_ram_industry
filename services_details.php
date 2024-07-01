@@ -1,7 +1,7 @@
 <?php
-include_once('header.php');
-$header = new Header();
-$header->includeHeader('Services Details', './');
+    include_once('header.php');
+    $header = new Header();
+    $header->includeHeader('Services Details', './');
 ?>
 
 <div class="main-body-servicers">
@@ -15,6 +15,7 @@ $header->includeHeader('Services Details', './');
             </ul>
         </div>
     </div>
+    <!-- SERVICES -->
     <div class="services-details">
         <h1>CNC & VMC Machining Services</h1>
         <img src="public/images/services-page/services-details-img.png" alt="">
@@ -41,6 +42,7 @@ $header->includeHeader('Services Details', './');
             </p>
         </label>
     </div>
+    <!-- OUR SERVICES -->
     <div class="our-services-details">
         <h6> <i class="ti ti-bookmark-filled"></i> Our Services</h6>
         <h2>Services We Offer</h2>
@@ -93,7 +95,6 @@ $header->includeHeader('Services Details', './');
             </div>
         </div>
     </div>
-
 </div>
 
 <?php include_once('footer.php'); ?>
