@@ -137,7 +137,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>02</h4>
@@ -146,7 +146,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>03</h4>
@@ -155,7 +155,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>04</h4>
@@ -164,7 +164,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>05</h4>
@@ -173,7 +173,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>06</h4>
@@ -182,7 +182,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s
                 </p>
-                <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
         </ul>
     </div>
@@ -202,7 +202,7 @@
                 customer’s design & Drawings.</p>
             <p>We provide complete engineering solutions from Process establishment, Manufacturing inspection and
                 supply/trial to our customer to their at most satisfaction at committed time.</p>
-            <a href="">View More <i class="ti ti-chevrons-right"></i></i></a>
+            <a href="#/">View More <i class="ti ti-chevrons-right"></i></i></a>
         </div>
     </div>
 
@@ -266,7 +266,7 @@
                 <h1>Our Products</h1>
             </div>
             <div class=" align-content-center">
-                <a class="btn-outline-orange" href="#">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="#/">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <!------------------------------ swiper ------------------------------>
@@ -344,7 +344,7 @@
         <div class="bottom">
             <div>
                 <h1>We're protecting your future with the best service</h1>
-                <button><img src="public/images/play-btn.png" alt=""></button>
+                <button> <img src="public/images/play-btn.png"> </button>
             </div>
         </div>
     </div>
@@ -357,7 +357,7 @@
                 <h1>People Says About Machine</h1>
             </div>
             <div class="view-btn">
-                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="#/">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <div class="bottom">
@@ -379,8 +379,8 @@
                         <h5>CEO, High Rise Construction</h5>
                     </div>
                     <div class="arrow-img-icons">
-                        <a href=""><img src="public/images/left-arrow (2).png" alt=""></a>
-                        <a href=""><img src="public/images/rigth-arrow.png" alt=""></a>
+                        <a href="#/"><img src="public/images/left-arrow (2).png" alt=""></a>
+                        <a href="#/"><img src="public/images/rigth-arrow.png" alt=""></a>
                     </div>
                 </div>
             </div>

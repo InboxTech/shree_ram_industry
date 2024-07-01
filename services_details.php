@@ -10,8 +10,8 @@
         <div class="items ">
             <h3 class="title"> Services </h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#"> Services</a></li>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/"> Services</a></li>
             </ul>
         </div>
     </div>
@@ -51,42 +51,42 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-01.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-02.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-03.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-04.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>Component & engineering Design Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-05.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="public/images/services-page/services-img-06.png" alt="">
-                        <a href="#" class="swiper-service-text">
+                        <a href="#/" class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>

@@ -9,8 +9,8 @@
         <div class="items ">
             <h3 class="title"> About Us </h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#"> About Us</a></li>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/"> About Us</a></li>
             </ul>
         </div>
     </div>
@@ -80,11 +80,11 @@
             <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
             <h2>Our Trusted Partners</h2>
             <ul>
-                <li><a href="#"><img src="public/images/about/client-1.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-2.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-3.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-4.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-5.png" alt=""></a></li>
+                <li><a href="#/"><img src="public/images/about/client-1.png" alt=""></a></li>
+                <li><a href="#/"><img src="public/images/about/client-2.png" alt=""></a></li>
+                <li><a href="#/"><img src="public/images/about/client-3.png" alt=""></a></li>
+                <li><a href="#/"><img src="public/images/about/client-4.png" alt=""></a></li>
+                <li><a href="#/"><img src="public/images/about/client-5.png" alt=""></a></li>
             </ul>
     </div>
 
@@ -115,8 +115,7 @@
             </p>
         </div>
     </div>
-
-
+    
     <!-- -------------------------------------------- TESTIMONIALS -------------------------------------------- -->
     <div class="i-7">
         <div class="top">
@@ -125,7 +124,7 @@
                 <h1>People Says About Machine</h1>
             </div>
             <div class="view-btn">
-                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="#/">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <div class="bottom">
@@ -147,8 +146,8 @@
                         <h5>CEO, High Rise Construction</h5>
                     </div>
                     <div class="arrow-img-icons">
-                        <a href=""><img src="public/images/left-arrow (2).png" alt=""></a>
-                        <a href=""><img src="public/images/rigth-arrow.png" alt=""></a>
+                        <a href="#/"><img src="public/images/left-arrow (2).png" alt=""></a>
+                        <a href="#/"><img src="public/images/rigth-arrow.png" alt=""></a>
                     </div>
                 </div>
             </div>
