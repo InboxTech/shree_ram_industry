@@ -14,6 +14,7 @@
                     <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/products.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
+                    <link href="'.$parentPath.'public/css/contact_us.css" rel="stylesheet" />
                     <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
                     <link href="'.$parentPath.'public/bootstrap/bootstrap.min.css" rel="stylesheet">
 
@@ -35,7 +36,7 @@
                                 </ul>
                                 <div class="nav-left-items">
                                     <ul>
-                                        <li> <i class="ti ti-file-description"></i> <a href="'.$parentPath.'public/downloads/brochure.pdf"> Download Our Brochure </a></li>
+                                        <li> <i class="ti ti-file-description"></i> <a href="'.$parentPath.'public/downloads/brochure.pdf" target="_blank"> Download Our Brochure </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,14 +44,15 @@
                         <div class="nav-2">
                             <div class="first-row">
                                 <img src="'.$parentPath.'public/images/icon.png" alt="">
+                                 <i class="ti ti-baseline-density-medium" onclick="TogglerButton()"></i>
                             </div>
                             <div class="second-row">
                                 <ul>
-                                    <li><a href="'.$parentPath.'index.php">Home</a></li>
+                                    <li><a class="active" href="'.$parentPath.'index.php">Home</a></li>
                                     <li><a href="'.$parentPath.'about.php">About Us</a></li>
                                     <li><a href="'.$parentPath.'services.php">Services</a></li>
-                                    <li><a href="'.$parentPath.'products.php">Products</a></li>   
-                                    <li><a href="'.$parentPath.'">Contact Us</a></li>
+                                    <li><a href="'.$parentPath.'products.php">Products <i class="ti ti-chevron-down"></i> </a></li>   
+                                    <li><a href="'.$parentPath.'contact_us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="third-row">
