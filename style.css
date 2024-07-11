@@ -1,0 +1,29 @@
+@page {
+    size: A4;
+  }
+
+@media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+}
+@font-face {
+    font-family: 'MicrEncoding-ZEDJ';
+    src: url('MicrEncoding-ZEDJ.ttf') format('truetype');
+  }  
+body {
+    font-family: Arial, sans-serif;
+}
+.check-number {
+    font-family: 'MicrEncoding-ZEDJ', Arial, sans-serif;
+    font-size: 40px;
+}
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.last-section {
+    margin-top: 26%;
+}
