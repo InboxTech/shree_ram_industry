@@ -1,7 +1,6 @@
 @page {
     size: A4;
   }
-
 @media print {
     html, body {
       width: 210mm;
@@ -14,10 +13,14 @@
   }  
 body {
     font-family: Arial, sans-serif;
+    color: black;
+    font-size: smaller;
+    line-height: normal;
+    
 }
 .check-number {
     font-family: 'MicrEncoding-ZEDJ', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 .container {
     padding: 20px;
@@ -25,5 +28,8 @@ body {
     margin: 0 auto;
 }
 .last-section {
-    margin-top: 26%;
+    margin-top: 40%;
+}
+.last-section-top {
+  margin-top: 60px;
 }
