@@ -4,7 +4,7 @@
 @media print {
     html, body {
       width: 210mm;
-      height: 297mm;
+      height: 280mm;
     }
 }
 @font-face {
@@ -16,7 +16,6 @@ body {
     color: black;
     font-size: smaller;
     line-height: normal;
-    
 }
 .check-number {
     font-family: 'MicrEncoding-ZEDJ', Arial, sans-serif;
@@ -28,7 +27,7 @@ body {
     margin: 0 auto;
 }
 .last-section {
-    margin-top: 40%;
+    margin-top: 30%;
 }
 .last-section-top {
   margin-top: 60px;
