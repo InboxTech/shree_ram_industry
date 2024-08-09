@@ -97,7 +97,7 @@ var swiper = new Swiper(".mySwiper4", {
 });
 
 var swiper = new Swiper(".mySwiper5", {
-  slidesPerView: 3,
+  slidesPerView: 4,
   loop: true,
   speed: 1000,
   autoplay: {
