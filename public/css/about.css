@@ -27,7 +27,7 @@
     color: white;
     padding: 0 12px;
 }
-.title-image .items ul li a:hover {
+.title-image .items ul li a:hover, .title-image .items ul li a.active  {
     color: var(--orang-color);
 }
 

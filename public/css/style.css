@@ -186,6 +186,11 @@ li {
     border-bottom: 1px solid ;
 }
 
+.second-row ul li a.active {
+    color: var(--orang-color);
+    border-bottom: 1px solid var(--orang-color);
+}
+
 .third-row {
     display: flex;
     align-items: center;
