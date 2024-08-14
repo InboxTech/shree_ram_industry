@@ -37,7 +37,10 @@
         </div>
 
         <div class="row mt-3 align-items-end">
-            <div class="col-sm-11  border-bottom border-dark">One Hundred Eight Thousand Eight Hundred Seenty-Three and 86/100 ****************************</div>
+            <div class="col-sm-11  border-bottom border-dark">
+                <div class="data" style="display: none;">One</div>
+                <div class="value"></div>
+            </div>
             <div class="col-sm-1">DOLLARS</div>
         </div>
 
@@ -107,5 +110,16 @@
             <div class="col-sm-2 text-end">108,873.86</div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const value = document.querySelector('.value');
+            const dataDiv = document.querySelector('.data').textContent;
+            const numberOfAsterisks = 150; 
+            value.textContent = dataDiv + '*'.repeat(numberOfAsterisks);
+        });
+    </script>
+
+
 </body>
 </html>
