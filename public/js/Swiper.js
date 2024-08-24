@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 10,
   loop: true,
-  speed: 1000,
+  speed: 3000,
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,

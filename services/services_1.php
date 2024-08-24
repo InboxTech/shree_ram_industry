@@ -1,24 +1,24 @@
 <?php 
-    include_once('header.php');
+    include_once('../header.php');
     $header = new Header();
-    $header->includeHeader('Services', './');
+    $header->includeHeader('Services', '../');
 ?>
 
 <div class="main-body-servicers">
     <div class="title-image">
-        <img src="public/images/about-title.png" alt="">
+        <img src="../public/images/about-title.png" alt="">
         <div class="items ">
             <h3 class="title"> Services </h3>
             <ul>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/" class="active"> Services</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../services.php" class="active"> Services </a></li>
             </ul>
         </div>
     </div>
     <!-- SERVICES -->
     <div class="services-details">
         <h1>CNC & VMC Machining Services</h1>
-        <img src="public/images/services-page/services-details-img.png" alt="">
+        <img src="../public/images/services-page/services-details-img.png" alt="">
         <!-- <h4>Heading 1</h4> -->
         <label>
             <p>
@@ -50,43 +50,43 @@
             <div class="swiper mySwiper5">
                 <div class="swiper-wrapper">    
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-01.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-01.png" alt="">
+                        <a href="services_1.php" class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-02.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-02.png" alt="">
+                        <a href="services_2.php" class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-03.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-03.png" alt="">
+                        <a href="services_3.php" class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-04.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-04.png" alt="">
+                        <a href="services_4.php" class="swiper-service-text">
                             <p>Component & engineering Design</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-05.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-05.png" alt="">
+                        <a href="services_5.php" class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="public/images/services-page/services-img-06.png" alt="">
-                        <a href="#/" class="swiper-service-text">
+                        <img src="../public/images/services-page/services-img-06.png" alt="">
+                        <a href="services_6.php" class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
@@ -97,4 +97,8 @@
     </div>
 </div>
 
-<?php include_once('footer.php'); ?>
+<?php 
+    include_once('../footer.php'); 
+    $footer = new Footer();
+    $footer->includeFooter('../');
+?>

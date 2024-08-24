@@ -161,4 +161,8 @@
     </div> -->
 </div>
 
-<?php include_once('footer.php'); ?>
+<?php 
+    include_once('footer.php'); 
+    $footer = new Footer();
+    $footer->includeFooter('./');
+?>
