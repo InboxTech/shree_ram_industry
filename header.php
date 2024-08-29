@@ -45,6 +45,7 @@
                             <div class="first-row">
                                 <a href="'.$parentPath.'index.php"><img src="' .$parentPath. 'public/images/icon.png" alt=""></a>
                                     <i class="ti ti-baseline-density-medium" onclick="TogglerButton()"></i>
+                                    <a class="small-brochure" href="' .$parentPath. 'public/downloads/brochure.pdf"> Download Our Brochure </a>
                             </div>
                             <div class="second-row">
                                 <ul>

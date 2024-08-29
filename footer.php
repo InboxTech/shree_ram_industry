@@ -64,6 +64,7 @@
                 <script src="'.$parentPath.'public/js/swiper-bundle.min.js"></script>
                 <script src="'.$parentPath.'public/js/Swiper.js"></script>
                 <script src="'.$parentPath.'public/js/ToggleButton.js"></script>
+                <script src="'.$parentPath.'public/js/ActiveInactiveLink.js"></script>
                 </body>
                 </html>
             ';
