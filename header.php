@@ -43,7 +43,7 @@
                         </div>
                         <div class="nav-2">
                             <div class="first-row">
-                                <a href="index.php"><img src="' .$parentPath. 'public/images/icon.png" alt=""></a>
+                                <a href="'.$parentPath.'index.php"><img src="' .$parentPath. 'public/images/icon.png" alt=""></a>
                                     <i class="ti ti-baseline-density-medium" onclick="TogglerButton()"></i>
                             </div>
                             <div class="second-row">

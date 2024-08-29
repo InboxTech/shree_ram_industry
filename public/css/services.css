@@ -6,17 +6,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  margin: 20px;
+
 }
-.content h6 {
+.content h4 {
   color: var(--orang-color) !important;
   padding: 20px;
   font-weight: bold;
+  text-align: center;
 }
-.content h2 {
+.content h1 {
   color: #43434a !important;
-  width: 25%;
   font-weight: 600;
   text-align: center;
 }

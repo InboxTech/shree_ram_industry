@@ -10,8 +10,8 @@
         <div class="items ">
             <h3 class="title"> Products </h3>
             <ul>
-                <li><a href="#/">Home</a></li>   
-                <li><a href="#/" class="active"> Products</a></li>
+                <li><a href="index.php">Home</a></li>   
+                <li><a href="products.php" class="active"> Products</a></li>
             </ul>
         </div>
     </div>

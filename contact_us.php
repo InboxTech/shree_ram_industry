@@ -10,9 +10,9 @@
         <div class="items ">
             <h3 class="title"> Contact </h3>
             <ul>
-                <li><a href="#/">Home</a></li>   
-                <li><a href="#/" class="active"> Contact Us</a></li>
-            </ul>
+                <li><a href="index.php">Home</a></li>   
+                <li><a href="contact_us.php" class="active"> Contact Us</a></li>
+            </ul>   
         </div>
     </div>
 

@@ -74,8 +74,13 @@
         padding: 20px;
     }
     .map-items .map-content {
+        display: flex;
         flex-direction: column;
-        width: 160%;
+        width: 100% !important;
+    }
+
+    .map-items .navigation {
+        width: 100%;
     }
 
     .contact-us-cards ul {

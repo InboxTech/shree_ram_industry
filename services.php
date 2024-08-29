@@ -10,15 +10,15 @@
         <div class="items ">
             <h3 class="title"> Services </h3>
             <ul>
-                <li><a href="#">Home</a></li>   
-                <li><a href="#" class="active"> Services</a></li>
+                <li><a href="index.php">Home</a></li>   
+                <li><a href="services.php" class="active"> Services</a></li>
             </ul>
         </div>
     </div>
     <!-- OUR SERVICES -->
     <div class="content">
-        <h6><i class="ti ti-bookmark-filled"></i>Our Services</h6>
-        <h2>Quality Manufacturing is Our Objective</h2>
+        <h4><i class="ti ti-bookmark-filled"></i>Our Services</h4>
+        <h1>Quality Manufacturing is Our Objective</h1>
     </div>
     <!-- MAIN SERVICES IMAGES ITEMS -->
     <div class="main">

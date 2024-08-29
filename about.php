@@ -10,8 +10,8 @@
         <div class="items ">
             <h3 class="title"> About Us </h3>
             <ul>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/" class="active"> About Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php" class="active"> About Us</a></li>
             </ul>
         </div>
     </div>

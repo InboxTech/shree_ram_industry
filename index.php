@@ -314,19 +314,19 @@
     <div class="i-6">
         <div class="top">
             <div class="our-clients">
-                <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
-                <h2>Our Trusted Partners</h2>
-                    <ul>
-                        <li><a href="https://www.te.com/en/home.html"><img src="public/images/clients_logo/TE_Connectivity_logo.png" alt=""></a></li>
-                        <li><a href="https://www.nvent.com/en-in/raychem"><img src="public/images/clients_logo/raycham_logo.jpg" alt=""></a></li>
-                        <li><a href="https://bruggcables.com/en/"><img src="public/images/clients_logo/brugg_logo.png" alt=""></a></li>
-                        <li><a href="https://www.nkt.com/"><img src="public/images/clients_logo/nkt_logo.png" alt=""></a></li>
-                        <li><a href="https://www.lscns.co.kr/en/main.asp"><img src="public/images/clients_logo/ls-cable-and-system-logo.png" alt=""></a></li>
-                        <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/baroda_bushing_logo.jpg" alt=""></a></li>
-                        <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/eproxy_house_logo.png" alt=""></a></li>
-                        <li><a href="https://www.epoxyhouse.com/contactus"><img src="public/images/clients_logo/ecs_logo.jpg" alt=""></a></li>
-                        <li><a href="https://www.epoxyhouse.com/contactus/"><img src="public/images/clients_logo/kaizan_logo.jpg" alt=""></a></li>
-                    </ul>
+                <h4><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h4>
+                <h1>Our Trusted Partners</h1>
+                <ul>
+                    <li><a href="https://www.te.com/en/home.html"><img src="public/images/clients_logo/TE_Connectivity_logo.png" alt=""></a></li>
+                    <li><a href="https://www.nvent.com/en-in/raychem"><img src="public/images/clients_logo/raycham_logo.jpg" alt=""></a></li>
+                    <li><a href="https://bruggcables.com/en/"><img src="public/images/clients_logo/brugg_logo.png" alt=""></a></li>
+                    <li><a href="https://www.nkt.com/"><img src="public/images/clients_logo/nkt_logo.png" alt=""></a></li>
+                    <li><a href="https://www.lscns.co.kr/en/main.asp"><img src="public/images/clients_logo/ls-cable-and-system-logo.png" alt=""></a></li>
+                    <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/baroda_bushing_logo.jpg" alt=""></a></li>
+                    <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/eproxy_house_logo.png" alt=""></a></li>
+                    <li><a href="https://www.epoxyhouse.com/contactus"><img src="public/images/clients_logo/ecs_logo.jpg" alt=""></a></li>
+                    <li><a href="https://www.epoxyhouse.com/contactus/"><img src="public/images/clients_logo/kaizan_logo.jpg" alt=""></a></li>
+                </ul>
             </div>
         </div>
         <div class="mid">
@@ -412,7 +412,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 col-md-12 m-3">
+        <div class="col-lg-6 col-md-12 m-3 form">
             <form class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">First Name</label>
