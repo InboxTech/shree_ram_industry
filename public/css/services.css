@@ -109,6 +109,15 @@
   padding: 100px;
 }
 
+.services-details img {
+  height: 50vh;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+
 .our-services-details h6 {
   color: var(--orang-color);
 }
