@@ -22,25 +22,40 @@ $header->includeHeader('Services', '../');
         <!-- <h4>Heading 1</h4> -->
         <label>
             <p>
-                At Shree Ram Industry, we specialize in providing comprehensive parts assembly services tailored to meet the specific needs of our clients. Our expertise covers a wide range of industries, from automotive and electronics to consumer
-                goods and industrial equipment. We understand that efficient and precise assembly is crucial for the success of any product, and we are committed to delivering high-quality services that meet your production goals.
+                Shree Ram Industry offers comprehensive parts assembly services, catering to a diverse range of industries 
+                including automotive, electronics, aerospace, and industrial machinery. The company’s assembly services 
+                are designed to streamline the production process for clients, providing a one-stop solution for 
+                assembling complex products from individual components. Shree Ram Industry excels in handling both 
+                small and large-scale assembly projects, ensuring each product is assembled with precision and adheres 
+                to the highest quality standards. By integrating advanced assembly techniques with skilled craftsmanship, 
+                they deliver finished products that meet stringent performance and durability requirements.
             </p>
             <p>
-                Custom Assembly Solutions: We offer customized assembly solutions designed to fit the unique requirements of your product, ensuring that every component is assembled with precision and care.
-                Sub-Assembly Services: Our sub-assembly services are ideal for complex products that require multiple stages of assembly. We can manage the entire process, from component sourcing to final assembly, ensuring a seamless integration into your production line.
-                Electromechanical Assembly: We specialize in the assembly of electromechanical components, providing expertise in wiring, soldering, and testing to ensure that your products are reliable and ready for market.
-                Kitting Services: We offer kitting services to streamline your production process. By pre-assembling components into kits, we help reduce assembly time and increase efficiency on the production floor.
-                Quality Assurance: Our rigorous quality assurance processes ensure that every assembled product meets your specifications and industry standards. We perform thorough inspections at every stage of assembly to guarantee the highest level of quality.
+                The assembly process at Shree Ram Industry begins with a detailed analysis of the client’s requirements. 
+                This includes understanding the functional needs of the final product, the specifications of each component, 
+                and any unique assembly challenges. The company employs a team of experienced technicians who are adept at 
+                working with various materials and components, ensuring that each part is assembled correctly and efficiently. 
+                Shree Ram Industry also utilizes modern automation technologies where applicable, enhancing the speed and 
+                consistency of the assembly process. Their ability to manage complex assemblies, from mechanical and 
+                electrical components to intricate subassemblies, makes them a valuable partner for clients seeking reliable 
+                and efficient assembly services.
             </p>
             <p>
-                Expertise and Experience: With years of experience in the assembly industry, our team has the knowledge and skills to handle even the most complex assembly projects.
-                State-of-the-Art Equipment: We utilize the latest technology and equipment to ensure precision and efficiency in every assembly task.
-                Flexibility: Whether you need a one-time assembly project or ongoing support, we offer flexible services that can be scaled to meet your needs.
-                On-Time Delivery: We understand the importance of deadlines, and we are committed to delivering your assembled products on time, every time.
-                Cost-Effective Solutions: Our efficient processes and expertise allow us to offer competitive pricing without compromising on quality.
+                Quality assurance is a critical aspect of Shree Ram Industry’s parts assembly services. The company implements 
+                rigorous testing and inspection protocols at each stage of the assembly process to ensure that every product 
+                meets the required specifications. This includes functional testing, fit and finish inspections, and durability 
+                assessments, all aimed at delivering a final product that performs flawlessly in its intended application. 
+                Shree Ram Industry’s commitment to quality not only minimizes the risk of defects but also enhances the 
+                overall reliability and longevity of the products they assemble.
             </p>
             <p>
-                Ready to discuss your parts assembly needs? Contact us today to learn more about how we can help you achieve your production goals with our reliable and efficient assembly services.
+                In addition to their technical expertise, Shree Ram Industry prides itself on its customer-focused approach. 
+                They offer flexible assembly solutions tailored to the specific needs of each client, whether it's a low-volume, 
+                high-mix project or a high-volume production run. The company also provides post-assembly services such as 
+                packaging, labeling, and logistics support, ensuring that the final products are ready for immediate distribution 
+                or further processing. By offering a comprehensive suite of assembly services, Shree Ram Industry helps clients 
+                reduce lead times, lower costs, and improve overall production efficiency, making them a trusted partner in the 
+                manufacturing process.
             </p>
         </label>
     </div>
@@ -51,48 +66,48 @@ $header->includeHeader('Services', '../');
         <div class="swiper-services-details">
             <div class="swiper mySwiper5">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <a href="cnc-and-vmc-machine-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-01.jpg" alt="">
-                        <a href="cnc-and-vmc-machine-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="custom-sheet-metal-works.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-02.jpg" alt="">
-                        <a href="custom-sheet-metal-works.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="precision-machine-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-03.jpg" alt="">
-                        <a href="precision-machine-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="component-and-engineering-design.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-04.jpg" alt="">
-                        <a href="component-and-engineering-design.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Component & engineering Design</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="parts-assembly.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-05.jpg" alt="">
-                        <a href="parts-assembly.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="custom-die-and-mold-making-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-06.jpg" alt="">
-                        <a href="custom-die-and-mold-making-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

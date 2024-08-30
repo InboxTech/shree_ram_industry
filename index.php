@@ -18,8 +18,8 @@
                             <span class="img-title">Create, Enhance and Sustain.</span><br/>
                             <p>
                                 We would like introduce ourselves as Supplier of precision
-                                engineering parts for more than 25 years having CNC & VCM
-                                Machines </p>
+                                engineering parts for more than 25 years having CNC & VMC
+                                machines </p>
                             <!-- <button class="btn-outline-white">
                                 Discover More
                             </button> -->
@@ -35,8 +35,8 @@
                             <span class="img-title">Create, Enhance and Sustain.</span><br/>
                             <p>
                                 We would like introduce ourselves as Supplier of precision
-                                engineering parts for more than 25 years having CNC & VCM
-                                Machines </p>
+                                engineering parts for more than 25 years having CNC & VMC
+                                machines </p>
                             <!-- <button class="btn-outline-white">
                                 Discover More
                             </button> -->
@@ -97,7 +97,7 @@
                 <div class="cards1">
                     <div class="cards-body">
                         <h4><i class="ti ti-bulb"></i></h4>
-                        <h5>Business idea</h5>
+                        <h5>Business Idea</h5>
                         <p>
                             Establish a manufacturing workshop offering custom high precision metal cutting ,fabrication, assembly, and testing services, leveraging 
                             skilled labor and advanced equipment to produce high-quality products for various industries.
@@ -193,7 +193,7 @@
             <h4><i class="ti ti-bookmark-filled"></i>WHO ARE WE ?</h4>
             <h1>SHREE RAM INDUSTRIES</h1>
             <p>We would like introduce ourselves as Supplier of precision engineering parts for more than 25
-                years having CNC & VCM Machines and all type of conventional machine shop set up Situated in
+                years having CNC & VMC machines and all type of conventional machine shop set up Situated in
                 Makarpura Industrial Area (G.I.D.C.) of Vadodara,Gujarat,india.</p>
             <p>We carry out all type of PRECISION MACHINED COMPONENT, CUSTOM SHEET METAL WORKS & ASSEMBLIES  as per
                 customer’s design & Drawings.</p>
@@ -346,7 +346,7 @@
                 </div>
                 <span class="vl"></span>
                 <div>
-                    <p>Experience</p>
+                    <p>Experiences</p>
                     <h1>25+</h1>
                 </div>
             </div>
@@ -429,11 +429,11 @@
                     <input type="text" class="form-control" placeholder="Enter Your Company Name" required>
                 </div>
                 <div class="mb-3 col-12">
-                    <label class="form-label">Messages</label>
-                    <textarea class="form-control" rows="3" placeholder="Enter Your Messages" required></textarea>
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="3" placeholder="Enter Your Message" required></textarea>
                 </div>
                 <div class="d-flex ">
-                    <input type="submit" class="btn-outline-orange" value="Send Messages">
+                    <input type="submit" class="btn-outline-orange" value="Send Message">
                 </div>
             </form>
         </div>

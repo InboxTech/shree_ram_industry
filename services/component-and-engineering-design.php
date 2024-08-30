@@ -27,15 +27,22 @@ $header->includeHeader('Services', '../');
                 into reality, ensuring precision, efficiency, and innovation at every step of the process.
             </p>
             <p>
-                Our Services Include:
-                Custom Component Design: From initial concept to final production, we design custom components that fit perfectly within your system, meeting both performance and aesthetic requirements.
-                Prototyping & Testing: We provide rapid prototyping and rigorous testing to validate designs, ensuring that every component functions optimally under real-world conditions.
-                Mechanical & Electrical Engineering: Our multidisciplinary team excels in both mechanical and electrical engineering, offering integrated solutions that encompass all aspects of your product’s design.
+                Shree Ram Industry specializes in precision component and engineering design for the metal 
+                part manufacturing sector. The company leverages advanced CAD/CAM software and state-of-the-art machinery to create 
+                high-quality metal components tailored to the specific needs of its clients. Their design process begins with a 
+                thorough analysis of the client's requirements, ensuring that each component is optimized for performance, durability, 
+                and cost-efficiency. The engineering team at Shree Ram Industry works closely with clients throughout the design phase, 
+                offering insights into material selection, manufacturability, and potential cost savings. This collaborative approach 
+                ensures that the final product not only meets but often exceeds expectations in terms of quality and functionality.
             </p>
             <p>
-                CAD Modeling & Simulation: Utilizing the latest CAD software and simulation tools, we create detailed models and perform simulations to predict performance, identify potential issues, and optimize designs before they go into production.
-                Product Development & Innovation: We partner with you throughout the product development lifecycle, from ideation and design through to manufacturing, helping you bring innovative products to market faster.
-                Compliance & Regulatory Support: Our designs adhere to industry standards and regulatory requirements, ensuring that your components are compliant with all necessary certifications.
+                In the metal part manufacturing industry, precision and reliability are crucial, and Shree Ram Industry excels in these areas by 
+                adhering to strict quality control measures throughout the design and production processes. The company utilizes advanced 
+                testing and simulation tools to validate designs before they move into production, minimizing the risk of errors and 
+                ensuring a higher standard of quality. Whether it's creating custom components for automotive, aerospace, or 
+                industrial machinery, Shree Ram Industry's engineering team is committed to delivering innovative solutions that 
+                enhance the performance and longevity of the products they manufacture. Their focus on continuous improvement and 
+                innovation makes them a trusted partner for clients looking for robust and efficient metal components.
             </p>
             <p>
                 Whether you’re developing a new product from scratch or need to enhance an existing system,
@@ -51,48 +58,48 @@ $header->includeHeader('Services', '../');
         <div class="swiper-services-details">
             <div class="swiper mySwiper5">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <a href="cnc-and-vmc-machine-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-01.jpg" alt="">
-                        <a href="cnc-and-vmc-machine-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="custom-sheet-metal-works.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-02.jpg" alt="">
-                        <a href="custom-sheet-metal-works.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="precision-machine-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-03.jpg" alt="">
-                        <a href="precision-machine-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="component-and-engineering-design.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-04.jpg" alt="">
-                        <a href="component-and-engineering-design.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Component & engineering Design</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="parts-assembly.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-05.jpg" alt="">
-                        <a href="parts-assembly.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
+                        </div>
+                    </a>
+                    <a href="custom-die-and-mold-making-services.php" class="swiper-slide">
                         <img src="../public/images/services-page/services-img-06.jpg" alt="">
-                        <a href="custom-die-and-mold-making-services.php" class="swiper-service-text">
+                        <div class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
