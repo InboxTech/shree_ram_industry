@@ -36,7 +36,7 @@
                 customer requirements.
             </p>
             <p>
-                our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
+                Our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
                 We are quite conversant with machining raw material from M.S., EN Series,
                 Alloy steel, Stainless Steels, Brass, Copper, Ptfe, WPS and Aluminum etc.
                 Looking forward to a healthy business relationship.
@@ -87,20 +87,12 @@
                 Buyers / Importers / Vendors and with our staff/workers to be
                 a global multi country product/service facilitator.
             </p>
-            <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.
-            </p>
         </div>
         <div class="our-vision">
             <h2>Our Vision</h2>
             <p>
                 Our mission is to provide authentic quality products /
                 services at a reasonable reliable price.
-            </p>
-            <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.
             </p>
         </div>
     </div>

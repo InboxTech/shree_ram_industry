@@ -54,7 +54,9 @@
 
 .main .main-items-services img {
   width: 100%;
+  height: 50vh;
   vertical-align: middle;
+  object-fit: cover;
 }
 
 .main .main-items-services .text-content {
@@ -129,7 +131,7 @@
 .swiper-services-details .swiper-slide img {
   display: block;
   width: 85%;
-  height: 85%;
+  height: 40vh;
   object-fit: cover;
   border-radius:12px;
 

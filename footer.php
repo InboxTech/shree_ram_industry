@@ -5,14 +5,14 @@
                 <footer>
                     <div class="footer-area">
                         <div class="subscribe">
-                            <h4>Subscribe now!</h4>
+                            <h4>Subscribe Now!</h4>
                             <div class="input-box">
                                 <form action="">
                                     <input type="email" placeholder="Enter Your Email" required>
                                     <button type="submit"><i class="ti ti-send"></i></button>
                                 </form>
                             </div>
-                            <h4>Our location:</h4>
+                            <h4>Our Location:</h4>
                             <div class="location">
                                 <i class="ti ti-map-pin"></i>
                                 <a href="https://maps.app.goo.gl/7kAdxYuHYBTZGKqB6"><label >677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India</label></a>
@@ -37,15 +37,15 @@
                                     <li><a href="#/">Our Partners</a></li> -->
                                 </ul>
                                 <ul>
-                                    <li><a href="#/">Privacy policy</a></li>
+                                    <li><a href="#/">Privacy Policy</a></li>
                                     <li><a href="#/">Sitemap</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="get-in-touch">
-                            <h4>Get in touch</h4>
+                            <h4>Get In Touch</h4>
                             <div class="phone">
-                                <label>Our phone number</label> <div class="line"></div>
+                                <label>Our Phone Number</label> <div class="line"></div>
                                 <p><a href="tel:7490004746">+91 74900 04746</a></p>
                                 <p><a href="tel:9820450680">+91 9820450680</a></p>
                             </div>

@@ -6,7 +6,7 @@
                 <html lang="en">
                 <head>
                     <title> Shree Ram Industries | ' .$title. ' </title>
-                    <link rel="icon" type="image/x-icon" href="public/images/logo.png">
+                    <link rel="icon" type="image/x-icon" href="'.$parentPath.'public/images/logo.png">
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 

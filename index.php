@@ -68,7 +68,6 @@
                     To achieve this, we will maintain a structured approach with clear processes for production planning, quality control, production, and maintenance. 
                     We will regularly review our performance metrics, including on-time delivery, quality, lead time, productivity, and equipment uptime, and encourage continuous improvement through employee feedback and training. Additionally, 
                     we will prioritize a safe and healthy work environment, following established protocols and providing regular training to ensure a successful and efficient workshop operation.
-                    
                 </p>
                 <!-- <a href="#/">View More <i class="ti ti-chevrons-right"></i></a> -->
             </div>
@@ -109,14 +108,13 @@
                         <h4><i class="ti ti-files"></i></h4>
                         <h5>Quality Projects</h5>
                         <p>
-                             Precision engineering <br>
-                             Zero-defect assembly <br>
-                             Customized quality control <br>
-                             Material optimization <br>
-                             Lean manufacturing <br>
-                             Continuous improvement <br>
-                             Certification and compliance <br>
-                             Employee training and development <br>
+                             1. Precision engineering <br>
+                             2. Zero-defect assembly <br>
+                             3. Customized quality control <br>
+                             4. Material optimization <br>
+                             5. Lean manufacturing <br>
+                             6. Continuous improvement <br>
+                             7. Certification and compliance <br>
                         </p>
                     </div>
                 </div>
@@ -140,7 +138,7 @@
             </li>
             <li>
                 <h4>02</h4>
-                <h5>Custom Sheet Metal works</h5>
+                <h5>Custom Sheet Metal Works</h5>
                 <p>
                     Providing precision custom sheet metal works, including fabrication, cutting, bending, and assembly, 
                     for complex parts and products, utilizing advanced machinery and techniques.
@@ -158,7 +156,7 @@
             </li>
             <li>
                 <h4>04</h4>
-                <h5>Component & engineering Services</h5>
+                <h5>Component & Engineering Services</h5>
                 <p>
                     Expert metal component design services, creating precise 2D/3D models, prototypes, 
                     and production-ready parts using CAD/CAM software, ensuring optimal strength, durability, and functionality.
@@ -176,7 +174,7 @@
             </li>
             <li>
                 <h4>06</h4>
-                <h5>Custom Die & MoldMaking Service</h5>
+                <h5>Custom Die & Mold Making Service</h5>
                 <p>
                     Designing and manufacturing custom dies and moulds for precision metal stamping, plastic injection, and 
                     casting, enabling accurate and efficient production of complex parts.
@@ -428,7 +426,7 @@
                 </div>
                 <div class="mb-3 col-6">
                     <label class="form-label">Company Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Your Company name" required>
+                    <input type="text" class="form-control" placeholder="Enter Your Company Name" required>
                 </div>
                 <div class="mb-3 col-12">
                     <label class="form-label">Messages</label>
