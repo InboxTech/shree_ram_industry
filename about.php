@@ -1,16 +1,17 @@
-<?php
-include_once('header.php');
-$header = new Header();
-$header->includeHeader('About Us', './');
+<?php 
+    include_once('header.php');
+    $header = new Header();
+    $header->includeHeader('About Us', './');
 ?>
+
 <div class="main-body">
     <div class="title-image">
         <img src="public/images/about-title.png" alt="">
         <div class="items ">
             <h3 class="title"> About Us </h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#"> About Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php" class="active"> About Us</a></li>
             </ul>
         </div>
     </div>
@@ -35,7 +36,7 @@ $header->includeHeader('About Us', './');
                 customer requirements.
             </p>
             <p>
-                our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
+                Our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
                 We are quite conversant with machining raw material from M.S., EN Series,
                 Alloy steel, Stainless Steels, Brass, Copper, Ptfe, WPS and Aluminum etc.
                 Looking forward to a healthy business relationship.
@@ -75,18 +76,6 @@ $header->includeHeader('About Us', './');
             </ul>
         </div>
     </div>
-    <!-- -------------------------------------------- OUR CLIENTS -------------------------------------------- -->
-    <div class="our-clients">
-            <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
-            <h2>Our Trusted Partners</h2>
-            <ul>
-                <li><a href="#"><img src="public/images/about/client-1.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-2.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-3.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-4.png" alt=""></a></li>
-                <li><a href="#"><img src="public/images/about/client-5.png" alt=""></a></li>
-            </ul>
-    </div>
 
     <!-- -------------------------------------------- OUR Vision & Mission -------------------------------------------- -->
     <div class="our-vision-mission">
@@ -98,10 +87,6 @@ $header->includeHeader('About Us', './');
                 Buyers / Importers / Vendors and with our staff/workers to be
                 a global multi country product/service facilitator.
             </p>
-            <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.
-            </p>
         </div>
         <div class="our-vision">
             <h2>Our Vision</h2>
@@ -109,23 +94,35 @@ $header->includeHeader('About Us', './');
                 Our mission is to provide authentic quality products /
                 services at a reasonable reliable price.
             </p>
-            <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.
-            </p>
         </div>
     </div>
 
-
+    <!-- -------------------------------------------- OUR CLIENTS -------------------------------------------- -->
+    <div class="our-clients">
+        <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
+        <h2>Our Trusted Partners</h2>
+            <ul>
+                <li><a href="https://www.te.com/en/home.html"><img src="public/images/clients_logo/TE_Connectivity_logo.png" alt=""></a></li>
+                <li><a href="https://www.nvent.com/en-in/raychem"><img src="public/images/clients_logo/raycham_logo.jpg" alt=""></a></li>
+                <li><a href="https://bruggcables.com/en/"><img src="public/images/clients_logo/brugg_logo.png" alt=""></a></li>
+                <li><a href="https://www.nkt.com/"><img src="public/images/clients_logo/nkt_logo.png" alt=""></a></li>
+                <li><a href="https://www.lscns.co.kr/en/main.asp"><img src="public/images/clients_logo/ls-cable-and-system-logo.png" alt=""></a></li>
+                <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/baroda_bushing_logo.jpg" alt=""></a></li>
+                <li><a href="https://www.epoxyhouse.com/"><img src="public/images/clients_logo/eproxy_house_logo.png" alt=""></a></li>
+                <li><a href="https://www.epoxyhouse.com/contactus"><img src="public/images/clients_logo/ecs_logo.jpg" alt=""></a></li>
+                <li><a href="https://www.epoxyhouse.com/contactus/"><img src="public/images/clients_logo/kaizan_logo.jpg" alt=""></a></li>
+            </ul>
+    </div>
+    
     <!-- -------------------------------------------- TESTIMONIALS -------------------------------------------- -->
-    <div class="i-7">
+    <!-- <div class="i-7">
         <div class="top">
             <div class="heading">
                 <h5><i class="ti ti-bookmark-filled"></i>TESTIMONIALS</h5>
                 <h1>People Says About Machine</h1>
             </div>
             <div class="view-btn">
-                <a class="btn-outline-orange" href="\">View All <i class="ti ti-arrow-right"></i></a>
+                <a class="btn-outline-orange" href="#/">View All <i class="ti ti-arrow-right"></i></a>
             </div>
         </div>
         <div class="bottom">
@@ -147,12 +144,17 @@ $header->includeHeader('About Us', './');
                         <h5>CEO, High Rise Construction</h5>
                     </div>
                     <div class="arrow-img-icons">
-                        <a href=""><img src="public/images/left-arrow (2).png" alt=""></a>
-                        <a href=""><img src="public/images/rigth-arrow.png" alt=""></a>
+                        <a href="#/"><img src="public/images/left-arrow (2).png" alt=""></a>
+                        <a href="#/"><img src="public/images/rigth-arrow.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
-<?php include_once('footer.php'); ?>
+
+<?php 
+    include_once('footer.php'); 
+    $footer = new Footer();
+    $footer->includeFooter('./');
+?>

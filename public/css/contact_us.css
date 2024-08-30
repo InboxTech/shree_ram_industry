@@ -68,3 +68,34 @@
     color: #727272;
     padding-bottom: 18px;
 }
+
+@media (max-width: 576px) {
+    .map-items{
+        padding: 20px;
+    }
+    .map-items .map-content {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .map-items .navigation {
+        width: 100%;
+    }
+
+    .contact-us-cards ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+    }
+    .contact-us-cards ul li {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .map-add {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}

@@ -5,18 +5,18 @@
                 <!DOCTYPE html>
                 <html lang="en">
                 <head>
-                    <title>'.$title.'</title>
+                    <title> Shree Ram Industries | ' .$title. ' </title>
                     <link rel="icon" type="image/x-icon" href="'.$parentPath.'public/images/logo.png">
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-                    <link href="'.$parentPath.'public/css/style.css" rel="stylesheet" />
-                    <link href="'.$parentPath.'public/css/about.css" rel="stylesheet" />
-                    <link href="'.$parentPath.'public/css/products.css" rel="stylesheet" />
-                    <link href="'.$parentPath.'public/css/services.css" rel="stylesheet" />
-                    <link href="'.$parentPath.'public/css/contact_us.css" rel="stylesheet" />
-                    <link href="'.$parentPath.'public/webfont/tabler-icons.css" rel="stylesheet">
-                    <link href="'.$parentPath.'public/bootstrap/bootstrap.min.css" rel="stylesheet">
+                    <link href="' .$parentPath. 'public/css/style.css" rel="stylesheet" />
+                    <link href="' .$parentPath. 'public/css/about.css" rel="stylesheet" />
+                    <link href="' .$parentPath. 'public/css/products.css" rel="stylesheet" />
+                    <link href="' .$parentPath. 'public/css/services.css" rel="stylesheet" />
+                    <link href="' .$parentPath. 'public/css/contact_us.css" rel="stylesheet" />
+                    <link href="' .$parentPath. 'public/webfont/tabler-icons.css" rel="stylesheet">
+                    <link href="' .$parentPath. 'public/bootstrap/bootstrap.min.css" rel="stylesheet">
 
                     <link href="https://fonts.googleapis.com" rel="preconnect" />
                     <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
@@ -30,32 +30,34 @@
                         <div class="main-nav-items">
                             <div class="nav-all-items">
                                 <ul class="nav-1">
-                                    <li class="line1"> <i class="ti ti-map-pin"></i> 677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India </li>
-                                    <li class="line1"><i class="ti ti-phone"></i> +91 74900 04746 </li>
-                                    <li class="d-flex align-items-center"><i class="ti ti-mail"></i> info@shreeramindustry.in</li>
+                                    <li class="line1"> <a href="https://maps.app.goo.gl/7kAdxYuHYBTZGKqB6"><i class="ti ti-map-pin"></i> 677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India </a></li>
+                                    <li class="line1"> <a href="tel:7490004746"><i class="ti ti-phone"></i> +91 74900 04746 </a></li>
+                                    <li class="d-flex align-items-center"> <a href="mailto:info@shreeramindustry.in"><i class="ti ti-mail"></i> info@shreeramindustry.in </a></li>
                                 </ul>
                                 <div class="nav-left-items">
                                     <ul>
-                                        <li> <i class="ti ti-file-description"></i> <a href="'.$parentPath.'public/downloads/brochure.pdf"> Download Our Brochure </a></li>
+                                        <li> <i class="ti ti-file-description"></i> <a href="' .$parentPath. 'public/downloads/brochure.pdf" target="_blank"> Download Our Brochure </a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="nav-2">
                             <div class="first-row">
-                                <img src="'.$parentPath.'public/images/icon.png" alt="">
+                                <a href="'.$parentPath.'index.php"><img src="' .$parentPath. 'public/images/icon.png" alt=""></a>
+                                    <i class="ti ti-baseline-density-medium" onclick="TogglerButton()"></i>
+                                    <a class="small-brochure" href="' .$parentPath. 'public/downloads/brochure.pdf"> Download Our Brochure </a>
                             </div>
                             <div class="second-row">
                                 <ul>
-                                    <li><a href="'.$parentPath.'index.php">Home</a></li>
-                                    <li><a href="'.$parentPath.'about.php">About Us</a></li>
-                                    <li><a href="'.$parentPath.'services.php">Services</a></li>
-                                    <li><a href="'.$parentPath.'products.php">Products</a></li>   
-                                    <li><a href="'.$parentPath.'contact_us.php">Contact Us</a></li>
+                                    <li><a class="active" href="' .$parentPath. 'index.php">Home</a></li>
+                                    <li><a href="' .$parentPath. 'about.php">About Us</a></li>
+                                    <li><a href="' .$parentPath. 'services.php">Services</a></li>
+                                    <li><a href="' .$parentPath. 'products.php">Products</a></li>   
+                                    <li><a href="' .$parentPath. 'contact_us.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="third-row">
-                                <img src="'.$parentPath.'public/images/certification.png" alt="">
+                                <img src="' .$parentPath. 'public/images/certification.png" alt="">
                             </div>
                         </div>
                     </nav>

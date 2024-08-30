@@ -27,7 +27,7 @@
     color: white;
     padding: 0 12px;
 }
-.title-image .items ul li a:hover {
+.title-image .items ul li a:hover, .title-image .items ul li a.active  {
     color: var(--orang-color);
 }
 
@@ -70,7 +70,7 @@
 
 /**------------------------------------------------ Why Choose Us ---------------------------------------------------------*/
 .why-choose-us{
-    padding: 100px;
+    padding: 50px;
     background-color: #F2F2F2;
 }
 .why-choose-us-title h6, .why-choose-us-card h4{
@@ -92,6 +92,11 @@
     border-radius: 8px;
     box-shadow:0.3px 0.2px 2.6px var(--orang-color);
     background-color: #FFFFFF;
+}
+
+.why-choose-us h6, .why-choose-us-card h4, .our-clients h6, .our-vision-mission h6, .who-we-are-text h6{
+    color: var(--orang-color);
+    font-weight: bold;
 }
 
 /**------------------------------------------------ OUR CLIENTS ---------------------------------------------------------*/
@@ -125,6 +130,74 @@
 }
 
 /**------------------------------------------- media qurry -----------------------------------------------------*/
+
+
+/* main title img  */
+
+@media (max-width: 992px) {
+    .title-image .items {
+        font-size: 18px;
+    }
+    .title-image .items ul {
+        gap: 8px;
+        padding: 0px;
+    }
+    .title-image .items ul li::after {
+        height: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-image img {
+        width: 100%;
+        height: 15vh;
+    }
+}
+
+
+/*  */
+
+@media (max-width: 576px) {
+    .who-we-are{
+     padding: 15px;
+    }
+    p {
+        text-align: left;
+    }
+}
+
+/*  */
+
+@media (max-width: 576px) {
+    .our-clients ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .our-clients ul li {
+        padding: 20px;
+    }
+}
+
+/*  */
+
+@media (max-width: 576px)  {
+    .why-choose-us {
+        padding: 50px;
+    }
+
+    .our-vision-mission {
+        padding: 20px;
+    }
+
+    .why-choose-us li {
+        padding: 15px;
+    }
+}
+
+
+/*  */
 @media (min-width: 768px) {
     .who-we-are-img, .our-mission {
         flex: 0 0 auto;

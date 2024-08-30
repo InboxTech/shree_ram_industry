@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 10,
   loop: true,
-  speed: 1000,
+  speed: 3000,
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,
@@ -97,7 +97,7 @@ var swiper = new Swiper(".mySwiper4", {
 });
 
 var swiper = new Swiper(".mySwiper5", {
-  slidesPerView: 3,
+  slidesPerView: 4,
   loop: true,
   speed: 1000,
   autoplay: {
