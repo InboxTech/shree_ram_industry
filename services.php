@@ -25,7 +25,7 @@
         <div class="main-items-services">
             <h1>01</h1>
             <div class="img-container">
-                <a href="services/services_1.php"> <img src="public/images/services-page/services-img-01.jpg" alt="">
+                <a href="services/cnc-and-vmc-machine-services.php"> <img src="public/images/services-page/services-img-01.jpg" alt="">
                 <div class="text-content">
                     <label for="">CNC & VMC Machining Services</label>
                     <i class="ti ti-arrow-up-right"></i>
@@ -36,7 +36,7 @@
         <div class="main-items-services">
             <h1>02</h1>
             <div class="img-container">
-                <a href="services/services_2.php"> <img src="public/images/services-page/services-img-02.jpg" alt="">
+                <a href="services/custom-sheet-metal-works.php"> <img src="public/images/services-page/services-img-02.jpg" alt="">
                 <div class="text-content">
                     <label for="">Custom Sheet Metal works</label>
                     <i class="ti ti-arrow-up-right"></i>
@@ -47,7 +47,7 @@
         <div class="main-items-services">
             <h1>03</h1>
             <div class="img-container">
-                <a href="services/services_3.php"> <img src="public/images/services-page/services-img-03.jpg" alt="">
+                <a href="services/precision-machine-services.php"> <img src="public/images/services-page/services-img-03.jpg" alt="">
                 <div class="text-content">
                     <label for="">Precision Machining Services</label>
                     <i class="ti ti-arrow-up-right"></i>
@@ -58,7 +58,7 @@
         <div class="main-items-services">
             <h1>04</h1>
             <div class="img-container">
-                <a href="services/services_4.php"> <img src="public/images/services-page/services-img-04.jpg" alt="">
+                <a href="services/component-and-engineering-design.php"> <img src="public/images/services-page/services-img-04.jpg" alt="">
                 <div class="text-content">
                     <label for="">Component & engineering Design Services</label>
                     <i class="ti ti-arrow-up-right"></i>
@@ -69,7 +69,7 @@
         <div class="main-items-services">
             <h1>05</h1>
             <div class="img-container">
-                <a href="services/services_5.php"> <img src="public/images/services-page/services-img-05.jpg" alt="">
+                <a href="services/parts-assembly.php"> <img src="public/images/services-page/services-img-05.jpg" alt="">
                 <div class="text-content">
                     <label for="">Parts Assembly</label>
                     <i class="ti ti-arrow-up-right"></i>
@@ -80,7 +80,7 @@
         <div class="main-items-services">
             <h1>06</h1>
             <div class="img-container">
-                <a href="services/services_6.php"> <img src="public/images/services-page/services-img-06.jpg" alt="">
+                <a href="services/custom-die-and-mold-making-services.php"> <img src="public/images/services-page/services-img-06.jpg" alt="">
                 <div class="text-content">
                     <label for="">Custom Die & Mold Making Service</label>
                     <i class="ti ti-arrow-up-right"></i>

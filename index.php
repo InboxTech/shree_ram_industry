@@ -134,7 +134,7 @@
                     Offering precision CNC (Computer Numerical Control) and VMC (Vertical Machining Center) services for custom part manufacturing, 
                     prototyping, and production, ensuring high accuracy and efficiency.
                 </p>
-                <a href="services/services_1.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/cnc-and-vmc-machine-services.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>02</h4>
@@ -143,7 +143,7 @@
                     Providing precision custom sheet metal works, including fabrication, cutting, bending, and assembly, 
                     for complex parts and products, utilizing advanced machinery and techniques.
                 </p>
-                <a href="services/services_2.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/custom-sheet-metal-works.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>03</h4>
@@ -152,7 +152,7 @@
                     Providing precision machining services, including milling, turning, and grinding, for complex parts and components, 
                     with tight tolerances and exceptional surface finishes, quickly and accurately.
                 </p>
-                <a href="services/services_3.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/precision-machine-services.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>04</h4>
@@ -161,7 +161,7 @@
                     Expert metal component design services, creating precise 2D/3D models, prototypes, 
                     and production-ready parts using CAD/CAM software, ensuring optimal strength, durability, and functionality.
                 </p>
-                <a href="services/services_4.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/component-and-engineering-design.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>05</h4>
@@ -170,7 +170,7 @@
                     Providing comprehensive part assembly services, including component sourcing, kitting, 
                     and final assembly, ensuring accurate, efficient, and high-quality product builds in our manufacturing workshop.
                 </p>
-                <a href="services/services_5.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/parts-assembly.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
             <li>
                 <h4>06</h4>
@@ -179,7 +179,7 @@
                     Designing and manufacturing custom dies and moulds for precision metal stamping, plastic injection, and 
                     casting, enabling accurate and efficient production of complex parts.
                 </p>
-                <a href="services/services_6.php">View More <i class="ti ti-chevrons-right"></i></i></a>
+                <a href="services/custom-die-and-mold-making-services.php">View More <i class="ti ti-chevrons-right"></i></i></a>
             </li>
         </ul>
     </div>

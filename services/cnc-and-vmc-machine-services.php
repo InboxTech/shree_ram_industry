@@ -40,42 +40,42 @@
                 <div class="swiper-wrapper">    
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-01.jpg" alt="">
-                        <a href="services_1.php" class="swiper-service-text">
+                        <a href="cnc-and-vmc-machine-services.php" class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-02.jpg" alt="">
-                        <a href="services_2.php" class="swiper-service-text">
+                        <a href="custom-sheet-metal-works.php" class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-03.jpg" alt="">
-                        <a href="services_3.php" class="swiper-service-text">
+                        <a href="precision-machine-services.php" class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-04.jpg" alt="">
-                        <a href="services_4.php" class="swiper-service-text">
+                        <a href="component-and-engineering-design.php" class="swiper-service-text">
                             <p>Component & engineering Design</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-05.jpg" alt="">
-                        <a href="services_5.php" class="swiper-service-text">
+                        <a href="parts-assembly.php" class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-06.jpg" alt="">
-                        <a href="services_6.php" class="swiper-service-text">
+                        <a href="custom-die-and-mold-making-services.php" class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>

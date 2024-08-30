@@ -1,7 +1,7 @@
-<?php 
-    include_once('../header.php');
-    $header = new Header();
-    $header->includeHeader('Services', '../');
+<?php
+include_once('../header.php');
+$header = new Header();
+$header->includeHeader('Services', '../');
 ?>
 
 <div class="main-body-servicers">
@@ -22,8 +22,8 @@
         <!-- <h4>Heading 1</h4> -->
         <label>
             <p>
-                At Shree Ram Industry, we specialize in providing top-tier component and engineering design services tailored to meet 
-                the unique needs of your projects. Our team of experienced engineers and designers work closely with you to transform your concepts 
+                At Shree Ram Industry, we specialize in providing top-tier component and engineering design services tailored to meet
+                the unique needs of your projects. Our team of experienced engineers and designers work closely with you to transform your concepts
                 into reality, ensuring precision, efficiency, and innovation at every step of the process.
             </p>
             <p>
@@ -38,9 +38,9 @@
                 Compliance & Regulatory Support: Our designs adhere to industry standards and regulatory requirements, ensuring that your components are compliant with all necessary certifications.
             </p>
             <p>
-            Whether you’re developing a new product from scratch or need to enhance an existing system, 
-            Shree Ram Industry is here to provide the engineering design expertise you need to succeed. 
-            Let us help you bring your vision to life with precision, creativity, and excellence.
+                Whether you’re developing a new product from scratch or need to enhance an existing system,
+                Shree Ram Industry is here to provide the engineering design expertise you need to succeed.
+                Let us help you bring your vision to life with precision, creativity, and excellence.
             </p>
         </label>
     </div>
@@ -50,45 +50,45 @@
         <h2>Services We Offer</h2>
         <div class="swiper-services-details">
             <div class="swiper mySwiper5">
-                <div class="swiper-wrapper">    
+                <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-01.jpg" alt="">
-                        <a href="services_1.php" class="swiper-service-text">
+                        <a href="cnc-and-vmc-machine-services.php" class="swiper-service-text">
                             <p>CNC & VMC Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-02.jpg" alt="">
-                        <a href="services_2.php" class="swiper-service-text">
+                        <a href="custom-sheet-metal-works.php" class="swiper-service-text">
                             <p>Custom Sheet Metal works</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-03.jpg" alt="">
-                        <a href="services_3.php" class="swiper-service-text">
+                        <a href="precision-machine-services.php" class="swiper-service-text">
                             <p>Precision Machining Services</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-04.jpg" alt="">
-                        <a href="services_4.php" class="swiper-service-text">
+                        <a href="component-and-engineering-design.php" class="swiper-service-text">
                             <p>Component & engineering Design</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-05.jpg" alt="">
-                        <a href="services_5.php" class="swiper-service-text">
+                        <a href="parts-assembly.php" class="swiper-service-text">
                             <p>Parts Assembly</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/images/services-page/services-img-06.jpg" alt="">
-                        <a href="services_6.php" class="swiper-service-text">
+                        <a href="custom-die-and-mold-making-services.php" class="swiper-service-text">
                             <p>Custom Die & Mold Making Service</p>
                             <i class="ti ti-arrow-up-right"></i>
                         </a>
@@ -99,8 +99,8 @@
     </div>
 </div>
 
-<?php 
-    include_once('../footer.php'); 
-    $footer = new Footer();
-    $footer->includeFooter('../');
+<?php
+include_once('../footer.php');
+$footer = new Footer();
+$footer->includeFooter('../');
 ?>
