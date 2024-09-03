@@ -6,6 +6,10 @@
       width: 210mm;
       height: 280mm;
     }
+    .container {
+      width: 210mm;
+      height: 92mm;
+    }
 }
 @font-face {
     font-family: 'MicrEncoding-ZEDJ';
