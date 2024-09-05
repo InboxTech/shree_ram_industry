@@ -36,7 +36,7 @@
                 customer requirements.
             </p>
             <p>
-                Our Machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
+                Our machining capacity ranges from ⌀4 mm to ⌀600 mm and 4 mm to 2000mm long.
                 We are quite conversant with machining raw material from M.S., EN Series,
                 Alloy steel, Stainless Steels, Brass, Copper, Ptfe, WPS and Aluminum etc.
                 Looking forward to a healthy business relationship.
@@ -55,16 +55,15 @@
                 <li>
                     <h4>01</h4>
                     <h5>Advanced Equipment</h5>
-                    <p>Operate a world-class facility with a variety of precision
-                        CNC machines - vertical milling centers and precision milling
-                        and turning lathes, including 3-; 4- and 5-axis models
+                    <p>Our cutting-edge CNC and VMC machines ensure unparalleled precision, 
+                        efficiency, and quality in every component, meeting your highest manufacturing standards.
                     </p>
                 </li>
                 <li>
                     <h4>02</h4>
                     <h5>Quick turn & Service</h5>
-                    <p>skilled machinists produce high-quality parts as little as
-                        3-6 working days if the CNC milling parts order with 100 parts
+                    <p>Skilled machinists produce high-quality parts as little as
+                        3-6 working days if the CNC milling parts order with 100 parts.
                     </p>
                 </li>
                 <li>

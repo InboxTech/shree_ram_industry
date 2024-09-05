@@ -97,11 +97,26 @@ var swiper = new Swiper(".mySwiper4", {
 });
 
 var swiper = new Swiper(".mySwiper5", {
-  slidesPerView: 4,
+  slidesPerView: 1,
+  spaceBetween: 20,
   loop: true,
   speed: 1000,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
+  // autoplay: {
+  //   delay: 1000,
+  //   disableOnInteraction: false,
+  // },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 60,
+    },
   },
 });

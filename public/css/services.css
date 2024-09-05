@@ -139,26 +139,36 @@
 
 .swiper-services-details .swiper-slide img {
   display: block;
-  width: 85%;
-  height: 40vh;
+  width: 100%;
+  height: 45vh;
   object-fit: cover;
   border-radius:12px;
-
 }
+
 .swiper-service-text {
   position: absolute;
   background-color: var(--orang-color);
-  width: 85%;
+  width: 100%;
   text-decoration: none;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
+  padding: 1.2rem;
   border-radius:0 0 12px 12px;
 }
+
 .swiper-service-text p {
   margin: 0%;
+}
+
+.swiper-services-details .swiper-slide {
+  position: relative; 
+}
+
+.swiper-services-details .swiper-slide a {
+  display: block; 
+  text-decoration: none;
 }
 
 /*------------------------------------------------------------------*  SERVICES DETAILS END ------------------------------------------------ */
@@ -191,19 +201,19 @@
     display: block;
   }
 
-  /* service_details media query  */
+  .swiper-services-details .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius:12px;
+  }
 
   .services-details{
     padding: 10px;
   }
   .our-services-details {
     padding: 10px;
-  }
-
-  .swiper-slide .swiper-service-text, .swiper-slide .swiper-service-text p {
-    height: 30px;
-    width: 85%;
-    font-size: 10px;
   }
 
   .main .main-items-services .text-content{
