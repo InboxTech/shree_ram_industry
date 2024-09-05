@@ -22,7 +22,7 @@
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             <div class="map-content">
                 <div class="map-add">
-                    <h2><i class="ti ti-building-store"></i>Store 1</h2>
+                    <h2><i class="ti ti-building-store"></i>Our Company </h2>
                     <label>Address: <br><span> G I D C Estate, C-1-677, Makarpura, Vadodara, Gujarat - 390 010. </label></span><br>
                     <label >Email: <br><span> <a href="mailto:info@shreeramindustry.in" style="color:rgba(243, 115, 50, 1); text-decoration: none;">info@shreeramindustry.in </a></span></label><br>
                     <label>Call: <br><span> <a href="tel:7490004746" style="color:rgba(243, 115, 50, 1); text-decoration: none;">+91 74900 04746 </a></span> <br> <span > <a href="tel:9820450680" style="color:rgba(243, 115, 50, 1); text-decoration: none;">+91 9820450680</a></span></label><br>
@@ -35,8 +35,8 @@
         </div>
         <div class="contact-us-our-store">
             <div class="our-title">
-                <h6><i class="ti ti-bookmark-filled"></i>Our Store</h6>
-                <h2>Others Store</h2>
+                <h4><i class="ti ti-bookmark-filled"></i>Our Company</h4>
+                <h2>Others Branch</h2>
             </div>
             <div class="contact-us-cards">
                 <ul>

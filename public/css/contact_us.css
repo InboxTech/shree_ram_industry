@@ -24,6 +24,7 @@
 }
 .contact-us-our-store .our-title {
    text-align: center;
+   padding: 40px;
 }
 .our-title h6 {
     color: var(--orang-color);

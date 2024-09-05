@@ -11,7 +11,7 @@
 .content h4 {
   color: var(--orang-color) !important;
   padding: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
 }
 .content h1 {

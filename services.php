@@ -18,7 +18,7 @@
     <!-- OUR SERVICES -->
     <div class="content">
         <h4><i class="ti ti-bookmark-filled"></i>Our Services</h4>
-        <h1>Quality Manufacturing is Our Objective</h1>
+        <h2>Quality Manufacturing is Our Objective</h2>
     </div>
     <!-- MAIN SERVICES IMAGES ITEMS -->
     <div class="main">
@@ -91,7 +91,7 @@
     </div>
     <!-- OUR CLIENTS-->
     <div class="our-clients">
-            <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
+            <h4><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h4>
             <h2>Our Trusted Partners</h2>
             <ul>
                 <li><a href="https://www.te.com/en/home.html"><img src="public/images/clients_logo/TE_Connectivity_logo.png" alt=""></a></li>

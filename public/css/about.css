@@ -118,8 +118,6 @@
 
 /**------------------------------------------- Our Vision and Mission -----------------------------------------------------*/
 .our-vision-mission{
-    display: flex;
-    flex-wrap: wrap;
     padding: 100px;
     color: #FFFFFF;
     background-color: #15141C;
@@ -127,6 +125,10 @@
 .our-vision-mission h6{
     color: var(--orang-color);
     width: 100%;
+}
+.our-vision-mission-details{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /**------------------------------------------- media qurry -----------------------------------------------------*/

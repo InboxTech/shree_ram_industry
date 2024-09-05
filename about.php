@@ -22,7 +22,7 @@
             <img src="public/images/about/who1.png" alt="">
         </div>
         <div class="who-we-are-text">
-            <h6><i class="ti ti-bookmark-filled"></i> WHO WE ARE</h6>
+            <h4><i class="ti ti-bookmark-filled"></i> WHO WE ARE</h4>
             <h2>We Provide Excellent Engineering Solutions.</h2>
             <p><strong>SHREE RAM INDUSTRIES</strong> take immense pride to showcase our company as a
                 quality driven company at Baroda with the fully equipped shop floor.
@@ -47,7 +47,7 @@
     <!-- -------------------------------------------- Why Choose Us -------------------------------------------- -->
     <div class="why-choose-us">
         <div class="why-choose-us-title">
-            <h6><i class="ti ti-bookmark-filled"></i> Why Choose Us</h6>
+            <h4><i class="ti ti-bookmark-filled"></i> Why Choose Us</h4>
             <h2>Why Choose Us</h2>
         </div>
         <div class="why-choose-us-card">
@@ -78,27 +78,29 @@
 
     <!-- -------------------------------------------- OUR Vision & Mission -------------------------------------------- -->
     <div class="our-vision-mission">
-        <h6><i class="ti ti-bookmark-filled"></i> Our Vision and Mission</h6>
-        <div class="our-mission">
-            <h2>Our Mission</h2>
-            <p>
-                Our vision is to have a long lasting relationship with our
-                Buyers / Importers / Vendors and with our staff/workers to be
-                a global multi country product/service facilitator.
-            </p>
-        </div>
-        <div class="our-vision">
-            <h2>Our Vision</h2>
-            <p>
-                Our mission is to provide authentic quality products /
-                services at a reasonable reliable price.
-            </p>
+        <h4><i class="ti ti-bookmark-filled"></i> Our Vision and Mission</h4>
+        <div class="our-vision-mission-details">
+            <div class="our-mission">
+                <h2>Our Mission</h2>
+                <p>
+                    Our vision is to have a long lasting relationship with our
+                    Buyers / Importers / Vendors and with our staff/workers to be
+                    a global multi country product/service facilitator.
+                </p>
+            </div>
+            <div class="our-vision">
+                <h2>Our Vision</h2>
+                <p>
+                    Our mission is to provide authentic quality products /
+                    services at a reasonable reliable price.
+                </p>
+            </div>
         </div>
     </div>
 
     <!-- -------------------------------------------- OUR CLIENTS -------------------------------------------- -->
     <div class="our-clients">
-        <h6><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h6>
+        <h4><i class="ti ti-bookmark-filled"></i> OUR CLIENTS</h4>
         <h2>Our Trusted Partners</h2>
             <ul>
                 <li><a href="https://www.te.com/en/home.html"><img src="public/images/clients_logo/TE_Connectivity_logo.png" alt=""></a></li>

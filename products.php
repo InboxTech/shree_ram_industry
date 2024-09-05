@@ -17,7 +17,7 @@
     </div>
     <!-- -------------------------------------------- Our Products -------------------------------------------- -->
     <div class="our-products">
-        <h6><i class="ti ti-bookmark-filled"></i> Our Products</h6>
+        <h4><i class="ti ti-bookmark-filled"></i> Our Products</h4>
         <h2>Discover Our Latest Products</h2>
         <ul>
             <li><img src="public/images/swiper/i5.1s1.png" alt=""></li>

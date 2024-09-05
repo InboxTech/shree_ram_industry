@@ -16,6 +16,10 @@ li {
     list-style: none;
 }
 
+h4 {
+    color:var(--orang-color) !important;
+}
+
 /* -------------------------------- buttons start -------------------------------- */
 
 .btn-outline-orange {
@@ -772,6 +776,10 @@ footer {
 footer .footer-area{
     display: flex;
     justify-content: space-around;
+}
+
+.footer-area h4{
+    color: white !important;
 }
 
 .subscribe, .queck-links, .get-in-touch {
