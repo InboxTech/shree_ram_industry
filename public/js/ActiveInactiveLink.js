@@ -1,26 +1,29 @@
+// main nav active inactive
+
 document.addEventListener('DOMContentLoaded', function () {
-    // Get the current page URL path
     var currentPath = window.location.pathname;
-
-    // Extract just the filename from the path
     var currentPage = currentPath.substring(currentPath.lastIndexOf('/') + 1);
-
-    // Select all navigation links
     var navLinks = document.querySelectorAll('.second-row ul li a');
 
-    // Loop through the navigation links
     navLinks.forEach(function (link) {
-        // Get the href of the link and extract the filename
         var linkPath = link.getAttribute('href');
         var linkPage = linkPath.substring(linkPath.lastIndexOf('/') + 1);
-
-        // Compare the filenames
         if (linkPage === currentPage) {
-            // Add the active class
             link.classList.add('active');
         } else {
-            // Remove the active class if it doesn't match
             link.classList.remove('active');
         }
     });
+});
+
+//  form actvie inactive
+function activateLink(event) {
+    var links = document.querySelectorAll('#menu li a');
+    links.forEach(function(link) {
+        link.classList.remove('active');
+    });
+    event.target.classList.add('active');
+}
+document.querySelectorAll('#menu li a').forEach(function(link) {
+    link.addEventListener('click', activateLink);
 });

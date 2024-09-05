@@ -101,10 +101,10 @@ var swiper = new Swiper(".mySwiper5", {
   spaceBetween: 20,
   loop: true,
   speed: 1000,
-  // autoplay: {
-  //   delay: 1000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     640: {
       slidesPerView: 2,

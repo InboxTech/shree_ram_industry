@@ -403,14 +403,15 @@
             <div class="contents">
                 <h1> Let’s Talk About : </h1>
                 <p> Have a project in mind that you think we’d be a great fit for it? We’d love to know what you’re thinking </p>
-                <ul>
-                    <li><a href="#/">New Project</a></li>
-                    <li><a href="#/">Joining Our Team</a></li>
-                    <li><a href="#/">General Inquiries</a></li>
+                <ul id="menu">
+                    <li><a href="#/" class="active" onclick="showForm('newProjectForm')">New Project</a></li>
+                    <li><a href="#/" onclick="showForm('ourTeamJoinForm')">Joining Our Team</a></li>
+                    <li><a href="#/" onclick="showForm('generalQueriesForm')">General Inquiries</a></li>
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 col-md-12 m-3 form">
+
+        <div class="col-lg-6 col-md-12 m-3 form" id="newProjectForm" style="display:block">
             <form class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">First Name</label>
@@ -432,8 +433,60 @@
                     <label class="form-label">Message</label>
                     <textarea class="form-control" rows="3" placeholder="Enter Your Message" required></textarea>
                 </div>
-                <div class="d-flex ">
-                    <input type="submit" class="btn-outline-orange" value="Send Message">
+                <div class="d-flex">
+                    <input type="submit" class="btn-outline-orange" name="new-project-btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+
+        <div class="col-lg-6 col-md-12 m-3 form" id="ourTeamJoinForm" style="display:none">
+            <form class="row">
+                <div class="mb-3 col-6">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Your First Name" required>
+                </div>
+                <div class="mb-3 col-6">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
+                </div>
+                <div class="mb-3 col-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email" required>
+                </div>
+                <div class="mb-3 col-6">
+                    <label class="form-label">Designation</label>
+                    <input type="text" class="form-control" placeholder="Designation" required>
+                </div>
+                <div class="mt-2 mb-3 col-6 ">
+                    <label class="form-label">Upload CV</label>
+                    <input type="file" name="cv" required/>
+                </div>
+                <div class="mb-3 col-6">
+                    <label class="form-label">Mobile Number</label>
+                    <input type="mobile" class="form-control" placeholder="Mobile" required>
+                </div>
+                <div class="d-flex">
+                    <input type="submit" class="btn-outline-orange" name="our-team-join-btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+
+        <div class="col-lg-6 col-md-12 m-3 form" id="generalQueriesForm" style="display:none">
+            <form class="row">
+                <div class="mb-3 col-6">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Your Full Name" required>
+                </div>
+                <div class="mb-3 col-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email" required>
+                </div>
+                <div class="mb-3 col-12">
+                    <label class="form-label">Query Message</label>
+                    <textarea class="form-control" rows="3" placeholder="Enter Your Query Message" required></textarea>
+                </div>
+                <div class="d-flex">
+                    <input type="submit" class="btn-outline-orange" name="general-query-btn" value="Send Query">
                 </div>
             </form>
         </div>

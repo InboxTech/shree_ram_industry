@@ -5,12 +5,10 @@
                 <footer>
                     <div class="footer-area">
                         <div class="subscribe">
-                            <h4>Subscribe Now!</h4>
+                            <h4>Get In Touch</h4>
                             <div class="input-box">
-                                <form action="">
-                                    <input type="email" placeholder="Enter Your Email" required>
-                                    <button type="submit"><i class="ti ti-send"></i></button>
-                                </form>
+                                    <input type="text" placeholder="Go To General Inquiries Forms" disabled>
+                                    <button type="submit"><i class="ti ti-send" id="scrollToDivButton"></i></button>
                             </div>
                             <h4>Our Location:</h4>
                             <div class="location">
@@ -65,6 +63,7 @@
                 <script src="'.$parentPath.'public/js/Swiper.js"></script>
                 <script src="'.$parentPath.'public/js/ToggleButton.js"></script>
                 <script src="'.$parentPath.'public/js/ActiveInactiveLink.js"></script>
+                <script src="'.$parentPath.'public/js/HideShowDiv.js"></script>
                 </body>
                 </html>
             ';

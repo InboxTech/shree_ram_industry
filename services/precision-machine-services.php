@@ -11,7 +11,8 @@ $header->includeHeader('Services', '../');
             <h3 class="title"> Services </h3>
             <ul>
                 <li><a href="../index.php">Home</a></li>
-                <li><a href="../services.php" class="active"> Services </a></li>
+                <li><a href="../services.php"> Services </a></li>
+                <li><a href="#/" class="active" id="servicesDetailsButton"> Services Details </a></li>
             </ul>
         </div>
     </div>
