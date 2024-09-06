@@ -354,7 +354,7 @@
         <div class="bottom">
             <div>
                 <h1>We're protecting your future with the best service</h1>
-                <button> <img src="public/images/play-btn.png"> </button>
+                <!-- <button> <img src="public/images/play-btn.png"> </button> -->
             </div>
         </div>
     </div>

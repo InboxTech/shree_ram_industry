@@ -5,13 +5,8 @@
                 <footer>
                     <div class="footer-area">
                         <div class="subscribe">
-                            <h4>Get In Touch</h4>
-                            <div class="input-box">
-                                    <input type="text" placeholder="Go To General Inquiries Forms" disabled>
-                                    <button type="submit"><i class="ti ti-send" id="scrollToDivButton"></i></button>
-                            </div>
                             <h4>Our Location:</h4>
-                            <div class="location">
+                            <div class="location mt-4">
                                 <i class="ti ti-map-pin"></i>
                                 <a href="https://maps.app.goo.gl/7kAdxYuHYBTZGKqB6"><label >677, G.I.D.C Estate, Makarpura, Vadodara -390010, Gujarat, India</label></a>
                             </div>
@@ -36,12 +31,12 @@
                                 </ul>
                                 <ul>
                                     <li><a href="#/">Privacy Policy</a></li>
-                                    <li><a href="#/">Sitemap</a></li>
+                                    <li><a href="'.$parentPath.'public/downloads/sitemap.xml">Sitemap</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="get-in-touch">
-                            <h4>Get In Touch</h4>
+                            <h4>Contact</h4>
                             <div class="phone">
                                 <label>Our Phone Number</label> <div class="line"></div>
                                 <p><a href="tel:7490004746">+91 74900 04746</a></p>
