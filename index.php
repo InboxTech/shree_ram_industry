@@ -413,19 +413,19 @@
 
         <div class="col-lg-6 col-md-12 m-3 form" id="newProjectForm" style="display:block">
             <form class="row">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">First Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your First Name" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Last Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" placeholder="Enter Your Email" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Company Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your Company Name" required>
                 </div>
@@ -441,29 +441,29 @@
 
         <div class="col-lg-6 col-md-12 m-3 form" id="ourTeamJoinForm" style="display:none">
             <form class="row">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your First Name" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Last Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" placeholder="Enter Your Email" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Designation</label>
                     <input type="text" class="form-control" placeholder="Designation" required>
                 </div>
-                <div class="mt-2 mb-3 col-6 ">
+                <div class="mt-2 mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Upload CV</label>
-                    <input type="file" name="cv" required/>
+                    <input type="file" name="cv" required />
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Mobile Number</label>
-                    <input type="mobile" class="form-control" placeholder="Mobile" required>
+                    <input type="tel" class="form-control" placeholder="Mobile" required>
                 </div>
                 <div class="d-flex">
                     <input type="submit" class="btn-outline-orange" name="our-team-join-btn" value="Send Message">
@@ -473,11 +473,11 @@
 
         <div class="col-lg-6 col-md-12 m-3 form" id="generalQueriesForm" style="display:none">
             <form class="row">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Name</label>
                     <input type="text" class="form-control" placeholder="Enter Your Full Name" required>
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-lg-6 col-md-12">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" placeholder="Enter Your Email" required>
                 </div>

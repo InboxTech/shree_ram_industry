@@ -225,3 +225,10 @@
   }
   
 }
+
+
+@media (max-width: 576px) {
+  .content-h2{
+    padding-bottom: 80px;
+  }
+}

@@ -79,6 +79,7 @@
 .why-choose-us-card ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding-left: 0;
     margin: 40px 0;
