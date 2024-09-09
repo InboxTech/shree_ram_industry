@@ -18,7 +18,7 @@
     <!-- OUR SERVICES -->
     <div class="content">
         <h4><i class="ti ti-bookmark-filled"></i>Our Services</h4>
-        <h2>Quality Manufacturing is Our Objective</h2>
+        <h2 class="content-h2">Quality Manufacturing is Our Objective</h2>
     </div>
     <!-- MAIN SERVICES IMAGES ITEMS -->
     <div class="main">
